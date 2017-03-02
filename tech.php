@@ -3,11 +3,19 @@
 <h2>Какие созданы условия <br>
 пребывания?
 </h2>
+<br><br>
+<a href="#" class="button-1 db-primer">ДА, ЭТО ВАЖНО!</a>
 
-<a href="#" class="button-1">ДА, ЭТО ВАЖНО!</a>
-<?php require_once('includes/footer.php'); ?>
-
-	
+<br><br><br><br>		
+<div class="js-window" id="js-form1">
+		<form action="#" method="post" class="js-submit db-form-1">
+			<p>	Приходите в  гости в удобное время</p>
+			<input type="text" name="email" placeholder="E-mail"><br><br>
+			<input type="text" name="phone" placeholder="Телефон" class="js-phone"><br><br>
+			<input type="submit" name="submit" value="отправить">
+		</form>
+	</div>
+<?php require_once('includes/footer.php'); ?>	
 </body>
 </html>
 

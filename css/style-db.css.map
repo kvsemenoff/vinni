@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAKA,EAAE,CACD,KAAK,CAJC,OAAO",
+"mappings": "AAKA,EAAE,CACD,KAAK,CAJC,OAAO,CAOd,UAAU,CACT,KAAK,CAVG,OAAO,CAWf,MAAM,CAAE,iBAAiB,CAE1B,gBAAgB,CAChB,UAAU,CAdD,OAAO,CAehB,KAAK,CAAC,KAAK,CAGV,UAAU,CACV,UAAU,CAAE,sCAAyC,CACrD,OAAO,CAAE,IAAI",
 "sources": ["style-db.scss"],
 "names": [],
 "file": "style-db.css"
