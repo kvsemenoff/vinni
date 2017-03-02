@@ -131,6 +131,7 @@
   max-width: 245px;
   width: 100%;
   height: 370px;
+  margin: 0 auto;
   margin-bottom: 21px; }
   .dfimgprepod img {
     border-radius: 20px;
@@ -183,7 +184,7 @@
 
 .df-left, .df-right {
   position: absolute;
-  top: 35%;
+  top: 37%;
   left: 0px;
   width: 27px;
   height: 44px;
@@ -196,12 +197,83 @@
   right: 0px;
   background-image: url("../img/right.png"); }
 
+/*=============photo=========*/
+.dfbgphoto {
+  background-image: url("../img/bgfoto.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  padding: 50px 0 70px 0; }
+
+.dfphotos {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "roundsblack"; }
+
+.dfcapph {
+  font-size: 30px;
+  color: #6eb400;
+  line-height: 60px; }
+
+.dfshoreeee {
+  font-size: 40px;
+  color: #ff7818;
+  line-height: 60px; }
+
+.dfblockphotos {
+  margin-top: 40px; }
+
+.dfoverflow {
+  height: 940px;
+  overflow: hidden; }
+
+.dfphimg {
+  display: inline-block;
+  max-width: 301px;
+  width: 100%;
+  height: 301px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  border-radius: 50px;
+  overflow: hidden; }
+  .dfphimg img {
+    display: inline-block;
+    width: 100%;
+    height: auto; }
+
+.dfseemore, .jshide {
+  margin-top: 25px;
+  font-size: 34px;
+  color: #ff7818;
+  text-decoration: underline;
+  display: inline-block; }
+
+.jshide {
+  padding-bottom: 100px; }
+
 @media only screen and (min-width: 768px) {
   .dfpersonalchar {
     padding-left: 0px; } }
 @media only screen and (min-width: 992px) {
   .dfpedagogs {
-    margin: 0 20px 0 79px; } }
+    margin: 0 20px 0 79px; }
+
+  .dfcapph {
+    font-size: 40px; }
+
+  .dfshoreeee {
+    font-size: 50px; }
+
+  .dfbgphoto {
+    background-size: cover;
+    padding: 100px 0 80px 0; }
+
+  .dfseemore, .jshide {
+    margin-top: 55px; }
+
+  .jshide {
+    padding-bottom: 70px; } }
 @media only screen and (min-width: 1248px) {
   .dfour {
     padding: 242px 0 345px 250px; }
@@ -241,10 +313,13 @@
     padding-left: 14px; }
 
   .df-left, .df-right {
-    left: -40px; }
+    left: -45px; }
 
   .df-right {
     left: unset;
-    right: -40px; } }
+    right: -45px; }
+
+  .jshide {
+    padding-bottom: 20px; } }
 
 /*# sourceMappingURL=style-df.css.map */
