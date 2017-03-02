@@ -8,19 +8,30 @@ $yellow:#ffe271;
 .dd-container{
 	max-width: 800px;
 	margin: 0 auto;
-
+	outline: 2px solid yellow;
+	text-align: center;
 }
-	.dd-title{
-		font-size: 34px;
-		font-family: "RoundsBlack";
-		color:black;
-	}
+.dd-title{
+	font-size: 66px;
+	
+	font-family: "RoundsBlack";
+	color:#fff;
+}
 .section_how{
 	width: 100%;
-	background:url(../img/space.png) no-repeat top center;
+	background:url(../img/space.jpg) no-repeat top center;
 	background-size:cover;
+	padding: 340px 0px;
 }
-
+.dd-slogan__h{
+	span{
+		display: inline-block;
+		font-family: "roundsblack";
+		font-size: 39px;
+		color:$lightblue;
+		text-transform: uppercase;
+	}
+}
 
 @media only screen and (min-width : 320px) {
 }
