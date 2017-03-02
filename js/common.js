@@ -2,6 +2,25 @@
 
 $(document).ready(function(){
  $('.js-mask').mask("+7 (999) 999 - 99 - 99?");
+    /*MODAL WINDOW*/
+    $('a[name="js-modal"]').on("click", function(e){
+        e.preventDefault();
+        var  id = $(this).attr('href'),
+        winW = $(window).width(),
+        winH = $(window).height();
+        $(id).css("left", winW/2-$(id).width()/2);
+        $(id).css("top", winH/2-$(id).height()/2);
+        $('body').css("overflow-y", "hidden");
+        $(id).fadeIn();
+        $('#js-mask').fadeIn();
+    });
+
+    $('.db-crest').on("click", function(){
+        $('#js-mask').hide();
+        $('.js-window').hide();
+        $('body').removeAttr('style');
+
+    });
     $('.az-select').each(function(){
         var select = $(this);    
         var option = select.find('select option');

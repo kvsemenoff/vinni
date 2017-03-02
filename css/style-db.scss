@@ -16,13 +16,21 @@ h2{
 	color:white;
 
 }
-.db-form-1{
-	box-shadow: 17.2px 24.6px 32px rgba(1, 77, 137, 0.75);
-	width: 630px;
-	background: rgba(#469fd3, 0.96);
+.db-form{
+	
+	width: 660px;
+	margin: 0 auto;
 	text-align: center;
-	padding:20px;
+	padding: 150px 0;
+	position: relative;
+	.db-crest{
+		position: absolute;
+		right: 60px;
+		top: 33px;
+		cursor:pointer;
+	}
 	p{
+		margin-top: -20px;
 		color: white;
 		font-size: 20px;
 		font-family: "Rubik-Bold";
@@ -32,12 +40,11 @@ h2{
 		background: none;
 		color: white;
 		border: 3px solid white;
-		padding: 13px 73px !important;
 		font-size: 20px;
 		margin-top: 15px;
 	}
 	input[type="text"]{
-		color: #70d1ff;
+		
 		border: 3px solid white;
 		font-size: 20px;
 		font-family: "Rubik-Regular";
@@ -45,6 +52,66 @@ h2{
 		text-align: center;
 		margin-top: 1px;
 	}
+	input[type="text"]::-webkit-input-placeholder { color: #70d1ff;}    
+    input[type="text"]::-moz-placeholder { color: #70d1ff;}
+}
+.db-form-1{
+background: url("../img/form1.png") no-repeat top center;
+input[type="submit"]{
+		padding: 13px 71px !important;
+	}
+	input[type="text"]{
+		color: #70d1ff;
+	}
+
+}
+.db-form-2{
+background: url("../img/form1.png") no-repeat top center;
+input[type="submit"]{
+		padding: 13px 64px !important;
+	}
+	input[type="text"]{
+		color: #70d1ff;
+	}
+}
+.db-form-3{
+background: url("../img/form1.png") no-repeat top center;
+input[type="submit"]{
+		padding: 13px 52px !important;
+	}
+	input[type="text"]{
+		color: #70d1ff;
+	}
+}
+.db-form-4{
+background: url("../img/form2.png") no-repeat top center;
+input[type="submit"]{
+		padding: 13px 33px !important;
+	}
+	input[type="text"]{
+		color: #f9770c;
+	}
+	input[type="text"]::-webkit-input-placeholder { color: #f9770c; }    
+    input[type="text"]::-moz-placeholder { color: #f9770c; }
+}
+.db-form-5{
+background: url("../img/form2.png") no-repeat top center;
+input[type="submit"]{
+		padding: 13px 52px !important;
+	}
+	input[type="text"]{
+		color: #f9770c;
+	}
+	input[type="text"]::-webkit-input-placeholder { color: #f9770c; }    
+    input[type="text"]::-moz-placeholder { color: #f9770c; }
+}
+#js-form1, #js-form2, #js-form3, #js-form4, #js-form5, #js-form6{
+	z-index: 1000;
+	position: fixed;
+	top:0;
+	left: 0;
+	text-align: center;
+	display: none;
 }
 
 @media only screen and (min-width : 320px) {

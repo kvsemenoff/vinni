@@ -105,6 +105,9 @@ $yellow:#ffe271;
 
 
 /*============personal=========*/
+.dfwhitebg{
+	background-color: #fff;
+}
 .dfcenter{
 	text-align: center;
 }
@@ -126,7 +129,7 @@ $yellow:#ffe271;
 	display: inline-block;
 	vertical-align: top;
 	font-family: "roundsblack";	
-	margin: 0 20px 0 72px;
+	margin: 0 20px;
 }
 .dfpersonalchar{
 	display: inline-block;
@@ -134,24 +137,30 @@ $yellow:#ffe271;
 	width: 100%;
 	list-style-image: url("../img/dot.png");
 	text-align: left;
-	margin-bottom: 24px;
+	margin-bottom: 27px;
 	padding-left: 40px;
 	li{
 		font-size: 16px;
 		color: #000000;
-		line-height: 20px;
+		line-height: 21px;
 		font-family: "Rubik-Regular";
 	}
 }
 .dfsliderbox{
-	max-width: 245px;
+	
+	max-width: 260px;
 	width: 100%;
 	display: inline-block;
 }
-.dfimgprepod{
-	border-radius: 20px;
+.dfimgprepod{	
+	max-width: 245px;
+	width: 100%;
 	height: 370px;
-	margin-bottom: 25px;
+	margin-bottom: 21px;
+	img{
+		border-radius: 20px;
+		display: inline-block;
+	}
 }
 #dfslider{
 	max-width: 850px;
@@ -160,7 +169,7 @@ $yellow:#ffe271;
 }
 
 .dfpersonname{
-	margin-bottom: 7px;
+	margin-bottom: 4px;
 	display: block;
 	font-size: 18px;
 	color: #ff740d;
@@ -179,9 +188,9 @@ $yellow:#ffe271;
 	font-size: 18px;
 	color: #000000;
 	line-height: 20px;
-	font-family: "Rubik-Regular";
+	font-family: "Rubik-Bold";
 	text-align: center;
-	margin: 35px 0 17px 0;
+	margin: 38px 0px 19px 22px;
 }
 .dfwanted{
 	font-size: 20px;
@@ -190,13 +199,21 @@ $yellow:#ffe271;
 	font-family: "Rubik-Regular";	
 	border-radius: 20px;	
 	display: inline-block;
-	padding: 15px 20px;
+	padding: 15px 33px;
 	text-transform: uppercase;
 	border:3px solid #ff740d;
+	-o-transition:0.4s;
+	-webkit-transition:0.4s;
+	-moz-transition:0.4s;
+	transition:0.4s;
+}
+.dfwanted:hover{
+	background-color: #ff740d;
+	color: #fff;
 }
 .df-left, .df-right{
 	position: absolute;
-	top:40%;
+	top:35%;
 	left: 0px;
 	width: 27px;
 	height: 44px;
@@ -222,6 +239,9 @@ $yellow:#ffe271;
 }
 
 @media only screen and (min-width : 992px) {
+	.dfpedagogs{		
+		margin: 0 20px 0 79px;
+	}
 }
 
 @media only screen and (min-width : 1248px) {
