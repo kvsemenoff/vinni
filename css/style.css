@@ -1,2 +1,37 @@
-@import url(reset.css);@import url(fonts.css);@import url(style-db.css);@import url(style-dc.css);@import url(style-dd.css);@import url(style-de.css);@import url(style-df.css);@import url(style-dg.css);@import url(style-dh.css);@import url(style-di.css);@import url(style-dj.css);.clear{clear:both}.center{text-align:center}.button-1{border-radius:20px;font-family:"Rubik-Regular";padding:13px 37px;text-transform:uppercase}.button-1:hover{transition:0.5s}h2{font-size:34px;font-family:"RoundsBlack";color:#022e61}
+@import url(reset.css);
+@import url(fonts.css);
+@import url(style-db.css);
+@import url(style-dc.css);
+@import url(style-dd.css);
+@import url(style-de.css);
+@import url(style-df.css);
+@import url(style-dg.css);
+@import url(style-dh.css);
+@import url(style-di.css);
+@import url(style-dj.css);
+/* line 19, C:/OpenServer/domains/vinny.loc/css/style.scss */
+.clear {
+  clear: both; }
+
+/* line 22, C:/OpenServer/domains/vinny.loc/css/style.scss */
+.center {
+  text-align: center; }
+
+/* line 26, C:/OpenServer/domains/vinny.loc/css/style.scss */
+.button-1 {
+  border-radius: 20px;
+  font-family: "Rubik-Regular";
+  padding: 13px 37px;
+  text-transform: uppercase; }
+
+/* line 32, C:/OpenServer/domains/vinny.loc/css/style.scss */
+.button-1:hover {
+  transition: 0.5s; }
+
+/* line 36, C:/OpenServer/domains/vinny.loc/css/style.scss */
+h2 {
+  font-size: 34px;
+  font-family: "RoundsBlack";
+  color: #022e61; }
+
 /*# sourceMappingURL=style.css.map */
