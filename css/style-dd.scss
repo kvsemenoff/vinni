@@ -16,6 +16,8 @@ $yellow:#ffe271;
 	color:#fff;
 }
 .section_how{
+	// margin-top: -327px;
+	margin-top: -376px;
 	width: 100%;
 	background:url(../img/space.jpg) no-repeat top center;
 	background-size:cover;
@@ -133,13 +135,150 @@ $yellow:#ffe271;
 	}
 }
 
+/* Что делать
+=================================*/
+.dd-what-to-do_wrap{
+	background:#fff;
+	// background:url(../img/dev.jpg) no-repeat top center;
+	background-size:cover;
+	padding: 50px 0px;
+}
+.dd-content_wt{
+	text-align: left;
+	span{
+		display: inline-block;
+	}
+	.dd-wsp1_wt{
+		color:$lightblue;
+		font-family: "roundsblack";
+		font-size: 34px;
+		margin-bottom: 16px;
+	}
+	.dd-wsp2_wt{
+		color:$lightblue;
+		font-family: "roundsblack";
+		font-size: 20px;
+		span{
+			color:$blue;
+		}
+	}
+	.dd-wsp3_wt{
+		font-family: "Rubik-Bold";
+		color:#000000;
+		margin-top: 33px;
+		margin-bottom: 25px;
+		font-size: 18px;
+	}
+	ul{
+		li{
+			font-family: "Rubik-Regular";
+			background:url(../img/disk.png) no-repeat left center;
+			padding-left: 15px;
+			font-size: 18px;
+			margin-bottom: 8px;
+		}
+	}
+}
+
+// 2
+.dd-what-to-do_wrap_2{
+	background:url(../img/green.png) no-repeat top center;
+	background-size:cover;
+	margin-top: -28px;
+	padding: 100px 0px;
+	// padding-top: 118px;
+	// padding-bottom: 15px;
+}
+.dd-content_wt__green{
+	outline: 1px solid blue;
+	max-width: 550px;
+	ul{
+		li{
+			background:url(../img/gd.png) no-repeat left center;
+			padding-top: 20px;
+			margin-bottom: -10px;
+			color:#fff;
+		}
+		li:last-child{
+			background:url(../img/gd.png) no-repeat left bottom 5px;
+		}
+	}
+	.dd-wsp1_wt{
+		color:#fff;
+	}
+	.dd-wsp2_wt{
+		color:#fff;
+		span{
+			color:$yellow;
+		}
+	}
+	.dd-wsp3_wt{
+		color:#fff;
+		margin-bottom: 0;
+	}
+}
+.dd-girl{
+	display: none;
+}
+// 3
+.dd-what-to-do_wrap_3{
+	background:url(../img/bw.png) no-repeat top center;
+	background:cover;
+	padding-top: 120px;
+	margin-top: -71px;
+
+}
+.dd-content_wt__pots{
+	max-width: 550px;
+	.span_pots{
+		padding-top: 18px;
+		font-family: "Rubik-Bold";
+		color:black;
+		display: inline-block;
+		font-size: 18px;
+	}
+	ul{
+		li{
+			color:black;
+			margin-bottom: 4px;
+			span{
+				font-family: "Rubik-Bold";
+			}
+		}
+	}
+	.dd-wsp1_wt{
+		color:$blue;
+		font-size: 31px;
+	}
+	.dd-wsp2_wt{
+		margin-bottom: 45px;
+		span{
+			color:$lightblue;
+			span{
+				color:$blue
+			}
+		}
+	}
+}
+
+
+
+
 @media only screen and (min-width : 320px) {
 }
 
 @media only screen and (min-width : 480px) {
+	.section_how{
+		margin-top: -327px;
+	}
 }
 
 @media only screen and (min-width : 768px) {
+	.dd-content_wt__pots{
+		.dd-wsp1_wt{
+			font-size: 33px;
+		}
+	}
 	.dd-slogan__h{
 		span{
 			font-size: 39px;
@@ -151,6 +290,18 @@ $yellow:#ffe271;
 }
 
 @media only screen and (min-width : 992px) {
+	.dd-what-to-do_wrap_3{
+		background:url(../img/pots.png) no-repeat top center;
+	}
+	.dd-container__green{
+		max-width: 1024px;
+	}
+	.dd-what-to-do_wrap{
+		background:url(../img/dev.jpg) no-repeat top center;
+		padding-top: 95px;
+		padding-bottom: 161px;
+	}
+
 	.dd-bottom-wrap_h{
 		margin-top: -337px;
 	}
@@ -168,6 +319,21 @@ $yellow:#ffe271;
 	}
 }
 
+
+
 @media only screen and (min-width : 1248px) {
+	.dd-what-to-do_wrap_2{
+		padding-top: 118px;
+		padding-bottom: 15px;
+	}
+	.dd-content_wt__green{
+		float: right;
+	}
+	.dd-girl{
+		outline: 2px solid red;
+		float: left;
+		margin-top: -155px;
+		display: block;
+	}
 }
 
