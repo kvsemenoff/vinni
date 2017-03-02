@@ -53,7 +53,10 @@ var owl2 = $("#dfslider");
             items:1
           },
           480:{
-            items:2  
+            items:1 
+          },
+          750:{
+            items:2 
           },
           990:{
             items:3

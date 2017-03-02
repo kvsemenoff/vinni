@@ -103,14 +103,16 @@
   display: inline-block;
   vertical-align: top;
   font-family: "roundsblack";
-  margin-right: 20px; }
+  margin: 0 20px 0 72px; }
 
 .dfpersonalchar {
   display: inline-block;
   max-width: 350px;
   width: 100%;
   list-style-image: url("../img/dot.png");
-  text-align: left; }
+  text-align: left;
+  margin-bottom: 24px;
+  padding-left: 40px; }
   .dfpersonalchar li {
     font-size: 16px;
     color: #000000;
@@ -126,6 +128,11 @@
   border-radius: 20px;
   height: 370px;
   margin-bottom: 25px; }
+
+#dfslider {
+  max-width: 850px;
+  width: 100%;
+  margin: 0 auto; }
 
 .dfpersonname {
   margin-bottom: 7px;
@@ -159,6 +166,24 @@
   text-transform: uppercase;
   border: 3px solid #ff740d; }
 
+.df-left, .df-right {
+  position: absolute;
+  top: 40%;
+  left: 0px;
+  width: 27px;
+  height: 44px;
+  background-image: url("../img/left.png");
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.df-right {
+  left: unset;
+  right: 0px;
+  background-image: url("../img/right.png"); }
+
+@media only screen and (min-width: 768px) {
+  .dfpersonalchar {
+    padding-left: 0px; } }
 @media only screen and (min-width: 1248px) {
   .dfour {
     padding: 242px 0 345px 250px; }
@@ -195,6 +220,13 @@
 
   .dfenglish {
     margin-bottom: 47px;
-    padding-left: 14px; } }
+    padding-left: 14px; }
+
+  .df-left, .df-right {
+    left: -40px; }
+
+  .df-right {
+    left: unset;
+    right: -40px; } }
 
 /*# sourceMappingURL=style-df.css.map */
