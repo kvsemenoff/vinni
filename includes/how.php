@@ -1,8 +1,7 @@
-<section class="section section_padding">
-<div class=" container">
-	<div class="row">
-		<div class="col-md-12">
+<section class="section section_how">
+	<div class="container">
+		<div class="dd-container">
+			<span class="dd-title">Как раскрыть</span>
 		</div>
 	</div>
-</div>
 </section>
