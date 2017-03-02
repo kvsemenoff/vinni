@@ -5,10 +5,11 @@ $lightblue:#70d1ff;
 $yellow:#ffe271;
 
 .footer {
-    padding: 75px 0 30px 0;
+    padding: 125px 0 30px 0;
     background-image: url(/img/footer_bg.jpg);
     background-position: 0 0;
     background-size: cover;
+    
 }
 .footer-title {
     text-align: center;
@@ -128,6 +129,59 @@ $yellow:#ffe271;
     margin-bottom: 30px;
     text-align: center;
 }
+
+.find {
+    background: url(/img/find_bg.png) 0 0 no-repeat;
+    background-color: transparent;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    position: relative;
+    z-index: 999;
+    margin-bottom: -70px;
+    background-size: cover;
+}
+.find-left {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.find-title {
+    color: #ff7818;
+    font-family: "roundsblack";
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 36px;
+    margin-bottom: 45px;
+}
+.find-title__span {
+    display: block;
+    font-size: 24px;
+    line-height: 30px;
+}
+.find-metro {
+    margin-bottom: 20px;
+}
+.find-metro__title {
+    color: #ff7818;
+    font-size: 20px;
+    font-family: "Rubik-Regular";
+}
+.find-metro__text {
+    font-family: "Rubik-Regular";
+    color: #000;
+    font-size: 16px;
+}
+.find-addr {
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+.find-addr__text {
+    color: #ff7818;
+    font-family: "Rubik-Regular";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+}
 @media only screen and (min-width : 320px) {
 }
 
@@ -158,6 +212,14 @@ $yellow:#ffe271;
     }
     .footer-call-title {
         line-height: 45px;
+    }
+    
+    .find-left {
+        margin-bottom: 0px;
+        text-align: left;
+    }
+    .find {
+        margin-bottom: -80px;
     }
 }
 
