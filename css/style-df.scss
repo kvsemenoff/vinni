@@ -3,6 +3,212 @@ $green: #378100;
 $blue: #022e61;
 $lightblue:#70d1ff;
 $yellow:#ffe271;
+
+.clear{
+	clear: both;
+}
+
+/*=============our=========*/
+.dfskew{
+	transform: skewY(-9deg);
+}
+.dfourbg{
+	background-image: url("../img/bgimgdf.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	transform: skewY(9deg);	
+}
+.dfour{
+	text-align: center;	
+	padding: 250px 0 200px 0px;
+	position: relative;
+}
+.dfimgabsolut{
+	display: none;
+}
+.dfcaption{
+	max-width: 610px;
+	width: 100%;
+	margin: 0 auto;
+	font-family: "roundsblack";
+	text-transform: uppercase;
+}
+.dfourcap1{
+	display: block;
+	font-size: 23.6px;
+	color: #378100;
+}
+.dfourcap2{
+	display: block;
+	font-size: 30px;
+	color: #ffffff;
+	// line-height: 77px;
+}
+.dfourcap3{
+	display: block;
+	font-size: 35px;
+	color: #ffffff;
+	// line-height: 71px;
+}
+.dfourcap4{
+	display: block;
+	font-size: 27.7px;
+	color: #378100;
+	// line-height: 53px;
+}
+
+
+.dfenglish{
+	font-size: 22px;
+	color: #ffffff;
+	font-family: "roundsblack";
+	line-height: 30px;
+	margin-bottom: 15px;
+	span{
+		color: #ffe271;
+	}
+}
+
+
+.dfourwidht{
+	max-width: 500px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: left;
+	padding-left: 15px;    
+    // margin-left: 160px;
+}
+.dfsuper{
+	font-size: 20px;
+	color: #eceefa;
+	font-family: "Rubik-Bold";
+	line-height: 26px;
+	margin-bottom: 12px;
+}
+.dfcharacter{
+	font-family: "Rubik-Regular";
+	font-size: 18px;
+	color: #eceefa;
+	line-height: 27px;
+	list-style-image: url("../img/dot.png");
+	padding-left: 17px;
+	li{
+		position: relative;
+		span{
+			font-family: "Rubik-Bold";
+		}
+	}
+
+}
+
+
+
+/*============personal=========*/
+.dfcenter{
+	text-align: center;
+}
+.dfcappersonal{
+	text-align: center;
+	font-size: 24px;
+	color: #ff740d;
+	font-family: "roundsblack";
+	line-height: 38px;
+	margin-bottom: 15px;
+	span{
+		font-size: 30px;
+	}
+}
+.dfpedagogs{
+	font-size: 18px;
+	color: #378100;
+	line-height: 22px;
+	display: inline-block;
+	vertical-align: top;
+	font-family: "roundsblack";	
+	margin: 0 20px 0 72px;
+}
+.dfpersonalchar{
+	display: inline-block;
+	max-width: 350px;
+	width: 100%;
+	list-style-image: url("../img/dot.png");
+	text-align: left;
+	margin-bottom: 24px;
+	padding-left: 40px;
+	li{
+		font-size: 16px;
+		color: #000000;
+		line-height: 20px;
+		font-family: "Rubik-Regular";
+	}
+}
+.dfsliderbox{
+	max-width: 245px;
+	width: 100%;
+	display: inline-block;
+}
+.dfimgprepod{
+	border-radius: 20px;
+	height: 370px;
+	margin-bottom: 25px;
+}
+#dfslider{
+	max-width: 850px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.dfpersonname{
+	margin-bottom: 7px;
+	display: block;
+	font-size: 18px;
+	color: #ff740d;
+	font-family: "Rubik-Bold";
+}
+.dfnamejob{
+	font-size: 18px;
+	line-height: 22px;
+	color: #000000;
+	font-family: "Rubik-Regular";
+}
+
+
+
+.dfpercomesoon{
+	font-size: 18px;
+	color: #000000;
+	line-height: 20px;
+	font-family: "Rubik-Regular";
+	text-align: center;
+	margin: 35px 0 17px 0;
+}
+.dfwanted{
+	font-size: 20px;
+	color: #ff740d;
+	line-height: 22px;
+	font-family: "Rubik-Regular";	
+	border-radius: 20px;	
+	display: inline-block;
+	padding: 15px 20px;
+	text-transform: uppercase;
+	border:3px solid #ff740d;
+}
+.df-left, .df-right{
+	position: absolute;
+	top:40%;
+	left: 0px;
+	width: 27px;
+	height: 44px;
+	background-image: url("../img/left.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.df-right{
+	left: unset;
+	right: 0px;
+	background-image: url("../img/right.png");
+}
 @media only screen and (min-width : 320px) {
 }
 
@@ -10,10 +216,62 @@ $yellow:#ffe271;
 }
 
 @media only screen and (min-width : 768px) {
+	.dfpersonalchar{		
+		padding-left: 0px;
+	}
 }
 
 @media only screen and (min-width : 992px) {
 }
 
 @media only screen and (min-width : 1248px) {
+	.dfour{	
+		// padding: 205px 0 345px 320px;
+		padding: 242px 0 345px 250px;		
+	}
+	.dfimgabsolut{
+		display: block;
+		position: absolute;
+		top: 160px;
+   		left: -109px;
+	}
+	.dfourwidht{
+		max-width: unset;
+		width: auto;
+		margin: 0 auto;
+		text-align: left;
+		padding-left: 105px;    
+	    margin-left: 160px;
+	}
+	.dfourcap1{		
+		font-size: 43.6px;		
+	}
+	.dfourcap2{		
+		font-size: 39.7px;
+		line-height: 59px;		
+	}
+	.dfourcap3{		
+		font-size: 69.5px;	
+		line-height: 71px;	
+	}
+	.dfourcap4{		
+		font-size: 37.7px;
+		line-height: 52px;
+		margin-bottom: 7px;		
+	}
+	.dfenglish{		
+		margin-bottom: 47px;	
+		padding-left: 14px;	
+	}
+
+
+	// ===================personal
+	.df-left, .df-right{	
+		left: -40px;		
+	}
+	.df-right{		
+		left: unset;
+		right: -40px;		
+	}
+
 }
