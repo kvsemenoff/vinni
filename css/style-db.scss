@@ -21,7 +21,7 @@ h2{
 	width: 660px;
 	margin: 0 auto;
 	text-align: center;
-	padding: 150px 0;
+	padding: 160px 0;
 	position: relative;
 	.db-crest{
 		position: absolute;
@@ -105,7 +105,26 @@ input[type="submit"]{
 	input[type="text"]::-webkit-input-placeholder { color: #f9770c; }    
     input[type="text"]::-moz-placeholder { color: #f9770c; }
 }
-#js-form1, #js-form2, #js-form3, #js-form4, #js-form5, #js-form6{
+.db-form-6{
+	width:600px;
+	background: white;
+	padding-top: 20px;
+	position: relative;
+p{
+	text-align: center;
+		color: black;
+		font-size: 30px;
+		font-family: "Rubik-Bold";
+		padding-bottom: 27px;
+	}
+	.db-crest{
+		position: absolute;
+		right: 10px;
+		top: 10px;
+		cursor:pointer;
+	}
+}
+#js-form1, #js-form2, #js-form3, #js-form4, #js-form5, #js-form6, #js-form7{
 	z-index: 1000;
 	position: fixed;
 	top:0;
