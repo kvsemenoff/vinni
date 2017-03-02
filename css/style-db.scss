@@ -18,15 +18,15 @@ h2{
 }
 .db-form{
 	
-	width: 660px;
+	max-width: 660px;
 	margin: 0 auto;
 	text-align: center;
 	padding: 160px 0;
 	position: relative;
 	.db-crest{
 		position: absolute;
-		right: 60px;
-		top: 33px;
+		right: 30px;
+		top: 85px;
 		cursor:pointer;
 	}
 	p{
@@ -106,21 +106,21 @@ input[type="submit"]{
     input[type="text"]::-moz-placeholder { color: #f9770c; }
 }
 .db-form-6{
-	width:600px;
+	max-width:600px;
 	background: white;
 	padding-top: 20px;
 	position: relative;
 p{
 	text-align: center;
 		color: black;
-		font-size: 30px;
+		font-size: 16px;
 		font-family: "Rubik-Bold";
 		padding-bottom: 27px;
 	}
 	.db-crest{
 		position: absolute;
-		right: 10px;
-		top: 10px;
+		right: -17px;
+top: -5px;
 		cursor:pointer;
 	}
 }
@@ -140,9 +140,68 @@ p{
 }
 
 @media only screen and (min-width : 768px) {
+	.db-form-6{
+	width:600px;
+	background: white;
+	padding-top: 20px;
+	position: relative;
+p{
+	text-align: center;
+		color: black;
+		font-size: 30px;
+		font-family: "Rubik-Bold";
+		padding-bottom: 27px;
+	}
+	.db-crest{
+		position: absolute;
+		right: 10px;
+		top: 10px;
+		cursor:pointer;
+	}
+}
+	.db-form{
+	
+	width: 660px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 160px 0;
+	position: relative;
+	.db-crest{
+		position: absolute;
+		right: 60px;
+		top: 33px;
+		cursor:pointer;
+	}
+	p{
+		margin-top: -20px;
+		color: white;
+		font-size: 20px;
+		font-family: "Rubik-Bold";
+		padding-bottom: 27px;
+	}
+	input[type="submit"]{
+		background: none;
+		color: white;
+		border: 3px solid white;
+		font-size: 20px;
+		margin-top: 15px;
+	}
+	input[type="text"]{
+		
+		border: 3px solid white;
+		font-size: 20px;
+		font-family: "Rubik-Regular";
+		padding: 6px 3px;
+		text-align: center;
+		margin-top: 1px;
+	}
+	input[type="text"]::-webkit-input-placeholder { color: #70d1ff;}    
+    input[type="text"]::-moz-placeholder { color: #70d1ff;}
+}
 }
 
 @media only screen and (min-width : 992px) {
+
 }
 
 @media only screen and (min-width : 1248px) {
