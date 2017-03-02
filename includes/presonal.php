@@ -42,7 +42,7 @@
 					<div class="item">
 						<div class="dfsliderbox">
 							<div class="dfimgprepod">
-								<img src="img/teacher4.png" alt="" class="img-responsive">
+								<img src="img/teacher4.jpg" alt="" class="img-responsive">
 							</div>
 							<span class="dfpersonname">Роза </span>
 							<span class="dfnamejob">Помощник группы Почемучки</span>
@@ -51,7 +51,7 @@
 					<div class="item">
 						<div class="dfsliderbox">
 							<div class="dfimgprepod">
-								<img src="img/teacher5.png" alt="" class="img-responsive">
+								<img src="img/teacher5.jpg" alt="" class="img-responsive">
 							</div>
 							<span class="dfpersonname">Светлана Викторона</span>
 							<span class="dfnamejob">Воспитатель группы Непоседы</span>
@@ -60,7 +60,7 @@
 					<div class="item">
 						<div class="dfsliderbox">
 							<div class="dfimgprepod">
-								<img src="img/teacher6.png" alt="" class="img-responsive">
+								<img src="img/teacher6.jpg" alt="" class="img-responsive">
 							</div>
 							<span class="dfpersonname">Алёна</span>
 							<span class="dfnamejob">Помощник группы Пчёлки</span>
@@ -69,7 +69,7 @@
 					<div class="item">
 						<div class="dfsliderbox">
 							<div class="dfimgprepod">
-								<img src="img/teacher7.png" alt="" class="img-responsive">
+								<img src="img/teacher7.jpg" alt="" class="img-responsive">
 							</div>
 							<span class="dfpersonname">Анастасия Владимировна</span>
 							<span class="dfnamejob">Педагог по английскому и воспитатель</span>
@@ -78,7 +78,7 @@
 					<div class="item">
 						<div class="dfsliderbox">
 							<div class="dfimgprepod">
-								<img src="img/teacher8.png" alt="" class="img-responsive">
+								<img src="img/teacher8.jpg" alt="" class="img-responsive">
 							</div>
 							<span class="dfpersonname">Евгения</span>
 							<span class="dfnamejob">Помощник группы Непоседы</span>
@@ -87,7 +87,7 @@
 					<div class="item">
 						<div class="dfsliderbox">
 							<div class="dfimgprepod">
-								<img src="img/teacher9.png" alt="" class="img-responsive">
+								<img src="img/teacher9.jpg" alt="" class="img-responsive">
 							</div>
 							<span class="dfpersonname">Елена Алексеевна</span>
 							<span class="dfnamejob">Медсестра</span>
@@ -96,7 +96,7 @@
 					<div class="item">
 						<div class="dfsliderbox">
 							<div class="dfimgprepod">
-								<img src="img/teacher10.png" alt="" class="img-responsive">
+								<img src="img/teacher10.jpg" alt="" class="img-responsive">
 							</div>
 							<span class="dfpersonname">Елена Николаевна</span>
 							<span class="dfnamejob">Воспитатель старшей группы</span>
@@ -105,7 +105,7 @@
 					<div class="item">
 						<div class="dfsliderbox">
 							<div class="dfimgprepod">
-								<img src="img/teacher11.png" alt="" class="img-responsive">
+								<img src="img/teacher11.jpg" alt="" class="img-responsive">
 							</div>
 							<span class="dfpersonname">Ирина Валерьевна</span>
 							<span class="dfnamejob">Воспитатель группы Звёздочки</span>
@@ -114,7 +114,7 @@
 					<div class="item">
 						<div class="dfsliderbox">
 							<div class="dfimgprepod">
-								<img src="img/teacher12.png" alt="" class="img-responsive">
+								<img src="img/teacher12.jpg" alt="" class="img-responsive">
 							</div>
 							<span class="dfpersonname">Ксения Александровна</span>
 							<span class="dfnamejob">Музыкальный руководитель</span>
@@ -123,7 +123,7 @@
 					<div class="item">
 						<div class="dfsliderbox">
 							<div class="dfimgprepod">
-								<img src="img/teacher13.png" alt="" class="img-responsive">
+								<img src="img/teacher13.jpg" alt="" class="img-responsive">
 							</div>
 							<span class="dfpersonname">Марина Васильевна</span>
 							<span class="dfnamejob">Воспитатель группы Почемучки</span>
@@ -132,7 +132,7 @@
 					<div class="item">
 						<div class="dfsliderbox">
 							<div class="dfimgprepod">
-								<img src="img/teacher14.png" alt="" class="img-responsive">
+								<img src="img/teacher14.jpg" alt="" class="img-responsive">
 							</div>
 							<span class="dfpersonname">Мария Валерьевна</span>
 							<span class="dfnamejob">Воспитатель групп Пчёлки</span>
@@ -141,7 +141,7 @@
 					<div class="item">
 						<div class="dfsliderbox">
 							<div class="dfimgprepod">
-								<img src="img/teacher15.png" alt="" class="img-responsive">
+								<img src="img/teacher15.jpg" alt="" class="img-responsive">
 							</div>
 							<span class="dfpersonname">Олеся Викторовна</span>
 							<span class="dfnamejob">Администратор</span>
