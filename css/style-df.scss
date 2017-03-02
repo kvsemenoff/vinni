@@ -101,6 +101,131 @@ $yellow:#ffe271;
 	}
 
 }
+
+
+
+/*============personal=========*/
+.dfwhitebg{
+	background-color: #fff;
+}
+.dfcenter{
+	text-align: center;
+}
+.dfcappersonal{
+	text-align: center;
+	font-size: 24px;
+	color: #ff740d;
+	font-family: "roundsblack";
+	line-height: 38px;
+	margin-bottom: 15px;
+	span{
+		font-size: 30px;
+	}
+}
+.dfpedagogs{
+	font-size: 18px;
+	color: #378100;
+	line-height: 22px;
+	display: inline-block;
+	vertical-align: top;
+	font-family: "roundsblack";	
+	margin: 0 20px;
+}
+.dfpersonalchar{
+	display: inline-block;
+	max-width: 350px;
+	width: 100%;
+	list-style-image: url("../img/dot.png");
+	text-align: left;
+	margin-bottom: 27px;
+	padding-left: 40px;
+	li{
+		font-size: 16px;
+		color: #000000;
+		line-height: 21px;
+		font-family: "Rubik-Regular";
+	}
+}
+.dfsliderbox{
+	
+	max-width: 260px;
+	width: 100%;
+	display: inline-block;
+}
+.dfimgprepod{	
+	max-width: 245px;
+	width: 100%;
+	height: 370px;
+	margin-bottom: 21px;
+	img{
+		border-radius: 20px;
+		display: inline-block;
+	}
+}
+#dfslider{
+	max-width: 850px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.dfpersonname{
+	margin-bottom: 4px;
+	display: block;
+	font-size: 18px;
+	color: #ff740d;
+	font-family: "Rubik-Bold";
+}
+.dfnamejob{
+	font-size: 18px;
+	line-height: 22px;
+	color: #000000;
+	font-family: "Rubik-Regular";
+}
+
+
+
+.dfpercomesoon{
+	font-size: 18px;
+	color: #000000;
+	line-height: 20px;
+	font-family: "Rubik-Bold";
+	text-align: center;
+	margin: 38px 0px 19px 22px;
+}
+.dfwanted{
+	font-size: 20px;
+	color: #ff740d;
+	line-height: 22px;
+	font-family: "Rubik-Regular";	
+	border-radius: 20px;	
+	display: inline-block;
+	padding: 15px 33px;
+	text-transform: uppercase;
+	border:3px solid #ff740d;
+	-o-transition:0.4s;
+	-webkit-transition:0.4s;
+	-moz-transition:0.4s;
+	transition:0.4s;
+}
+.dfwanted:hover{
+	background-color: #ff740d;
+	color: #fff;
+}
+.df-left, .df-right{
+	position: absolute;
+	top:35%;
+	left: 0px;
+	width: 27px;
+	height: 44px;
+	background-image: url("../img/left.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.df-right{
+	left: unset;
+	right: 0px;
+	background-image: url("../img/right.png");
+}
 @media only screen and (min-width : 320px) {
 }
 
@@ -108,9 +233,15 @@ $yellow:#ffe271;
 }
 
 @media only screen and (min-width : 768px) {
+	.dfpersonalchar{		
+		padding-left: 0px;
+	}
 }
 
 @media only screen and (min-width : 992px) {
+	.dfpedagogs{		
+		margin: 0 20px 0 79px;
+	}
 }
 
 @media only screen and (min-width : 1248px) {
@@ -125,8 +256,8 @@ $yellow:#ffe271;
    		left: -109px;
 	}
 	.dfourwidht{
-		max-width: 100%;
-		width: 100%;
+		max-width: unset;
+		width: auto;
 		margin: 0 auto;
 		text-align: left;
 		padding-left: 105px;    
@@ -152,4 +283,15 @@ $yellow:#ffe271;
 		margin-bottom: 47px;	
 		padding-left: 14px;	
 	}
+
+
+	// ===================personal
+	.df-left, .df-right{	
+		left: -40px;		
+	}
+	.df-right{		
+		left: unset;
+		right: -40px;		
+	}
+
 }
