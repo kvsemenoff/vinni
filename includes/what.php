@@ -46,3 +46,26 @@
 	</div>
 </section>
 
+<section class="section dd-what-to-do_wrap_3">
+	<div class=" container">
+		<div class="dd-container">
+			<div class="dd-content_wt dd-content_wt__pots">
+				<span class="dd-wsp1_wt">Какие созданы условия пребывания?</span>
+				<span class="dd-wsp2_wt">отвечаем: <span>деткам очень комфортно</span></span><br>
+				<ul>
+					<li>Просторный <span>500 м2</span> коттедж в элитной жилой застройке</li>
+					<li><span>90 м2</span> спортивный зал с игровым лабиринтом</li>
+					<li><span>60 м2</span> музыкальная гостиная </li>
+					<li>В группах до <span>12 деток</span></li>
+					<li>Ясельки – до <span>8 деток</span> в группе</li>
+					<li>На группе работают воспитатель и помощник</li>
+					<li>Участок <span>12 соток</span>, красивые ёлочки на участке</li>
+					<li><span>2 игровые детские площадки</span> оборудованные по возрасту</li>
+				</ul>
+				<span class="span_pots">Ваш малыш всегда под присмотром, и каждому ребёнку
+					уделяется достаточно внимания</span>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</section>

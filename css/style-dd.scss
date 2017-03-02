@@ -185,8 +185,9 @@ $yellow:#ffe271;
 	background:url(../img/green.png) no-repeat top center;
 	background-size:cover;
 	margin-top: -28px;
-	padding-top: 118px;
-	padding-bottom: 15px;
+	padding: 100px 0px;
+	// padding-top: 118px;
+	// padding-bottom: 15px;
 }
 .dd-content_wt__green{
 	outline: 1px solid blue;
@@ -219,7 +220,46 @@ $yellow:#ffe271;
 .dd-girl{
 	display: none;
 }
+// 3
+.dd-what-to-do_wrap_3{
+	background:url(../img/bw.png) no-repeat top center;
+	background:cover;
+	padding-top: 120px;
+	margin-top: -71px;
 
+}
+.dd-content_wt__pots{
+	max-width: 550px;
+	.span_pots{
+		padding-top: 18px;
+		font-family: "Rubik-Bold";
+		color:black;
+		display: inline-block;
+		font-size: 18px;
+	}
+	ul{
+		li{
+			color:black;
+			margin-bottom: 4px;
+			span{
+				font-family: "Rubik-Bold";
+			}
+		}
+	}
+	.dd-wsp1_wt{
+		color:$blue;
+		font-size: 31px;
+	}
+	.dd-wsp2_wt{
+		margin-bottom: 45px;
+		span{
+			color:$lightblue;
+			span{
+				color:$blue
+			}
+		}
+	}
+}
 
 
 
@@ -234,6 +274,11 @@ $yellow:#ffe271;
 }
 
 @media only screen and (min-width : 768px) {
+	.dd-content_wt__pots{
+		.dd-wsp1_wt{
+			font-size: 33px;
+		}
+	}
 	.dd-slogan__h{
 		span{
 			font-size: 39px;
@@ -245,7 +290,9 @@ $yellow:#ffe271;
 }
 
 @media only screen and (min-width : 992px) {
-
+	.dd-what-to-do_wrap_3{
+		background:url(../img/pots.png) no-repeat top center;
+	}
 	.dd-container__green{
 		max-width: 1024px;
 	}
@@ -254,6 +301,7 @@ $yellow:#ffe271;
 		padding-top: 95px;
 		padding-bottom: 161px;
 	}
+
 	.dd-bottom-wrap_h{
 		margin-top: -337px;
 	}
@@ -271,8 +319,14 @@ $yellow:#ffe271;
 	}
 }
 
+
+
 @media only screen and (min-width : 1248px) {
-		.dd-content_wt__green{
+	.dd-what-to-do_wrap_2{
+		padding-top: 118px;
+		padding-bottom: 15px;
+	}
+	.dd-content_wt__green{
 		float: right;
 	}
 	.dd-girl{
