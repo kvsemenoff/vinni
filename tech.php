@@ -9,10 +9,10 @@
 <br><br><br><br>		
 <div class="js-window" id="js-form1">
 		<form action="#" method="post" class="js-submit db-form-1">
-			<p>	Приходите в  гости в удобное время</p>
+			<p>	Скачать пример образовательного маршрута</p>
 			<input type="text" name="email" placeholder="E-mail"><br><br>
-			<input type="text" name="phone" placeholder="Телефон" class="js-phone"><br><br>
-			<input type="submit" name="submit" value="отправить">
+			<input type="text" name="phone" placeholder="Телефон" class="js-mask"><br><br>
+			<input type="submit" name="submit" value="скачать" class="button-1">
 		</form>
 	</div>
 <?php require_once('includes/footer.php'); ?>	

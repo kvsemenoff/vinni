@@ -12,13 +12,39 @@ h2{
 	border: 3px solid $orange;
 }
 .db-primer:hover{
-background: $orange;
-color:white;
+	background: $orange;
+	color:white;
 
-	}
-	.db-form-1{
+}
+.db-form-1{
 	box-shadow: 17.2px 24.6px 32px rgba(1, 77, 137, 0.75);
-	opacity: 0.96;
+	width: 630px;
+	background: rgba(#469fd3, 0.96);
+	text-align: center;
+	padding:20px;
+	p{
+		color: white;
+		font-size: 20px;
+		font-family: "Rubik-Bold";
+		padding-bottom: 27px;
+	}
+	input[type="submit"]{
+		background: none;
+		color: white;
+		border: 3px solid white;
+		padding: 13px 73px !important;
+		font-size: 20px;
+		margin-top: 15px;
+	}
+	input[type="text"]{
+		color: #70d1ff;
+		border: 3px solid white;
+		font-size: 20px;
+		font-family: "Rubik-Regular";
+		padding: 6px 3px;
+		text-align: center;
+		margin-top: 1px;
+	}
 }
 
 @media only screen and (min-width : 320px) {

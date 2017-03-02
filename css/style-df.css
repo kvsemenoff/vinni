@@ -1,2 +1,123 @@
+.clear {
+  clear: both; }
+
+/*=============our=========*/
+.dfskew {
+  transform: skewY(-9deg); }
+
+.dfourbg {
+  background-image: url("../img/bgimgdf.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  transform: skewY(9deg); }
+
+.dfour {
+  text-align: center;
+  padding: 250px 0 200px 0px;
+  position: relative; }
+
+.dfimgabsolut {
+  display: none; }
+
+.dfcaption {
+  max-width: 610px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "roundsblack";
+  text-transform: uppercase; }
+
+.dfourcap1 {
+  display: block;
+  font-size: 23.6px;
+  color: #378100; }
+
+.dfourcap2 {
+  display: block;
+  font-size: 30px;
+  color: #ffffff; }
+
+.dfourcap3 {
+  display: block;
+  font-size: 35px;
+  color: #ffffff; }
+
+.dfourcap4 {
+  display: block;
+  font-size: 27.7px;
+  color: #378100; }
+
+.dfenglish {
+  font-size: 22px;
+  color: #ffffff;
+  font-family: "roundsblack";
+  line-height: 30px;
+  margin-bottom: 15px; }
+  .dfenglish span {
+    color: #ffe271; }
+
+.dfourwidht {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  padding-left: 15px; }
+
+.dfsuper {
+  font-size: 20px;
+  color: #eceefa;
+  font-family: "Rubik-Bold";
+  line-height: 26px;
+  margin-bottom: 12px; }
+
+.dfcharacter {
+  font-family: "Rubik-Regular";
+  font-size: 18px;
+  color: #eceefa;
+  line-height: 27px;
+  list-style-image: url("../img/dot.png");
+  padding-left: 17px; }
+  .dfcharacter li {
+    position: relative; }
+    .dfcharacter li span {
+      font-family: "Rubik-Bold"; }
+
+@media only screen and (min-width: 1248px) {
+  .dfour {
+    padding: 242px 0 345px 250px; }
+
+  .dfimgabsolut {
+    display: block;
+    position: absolute;
+    top: 160px;
+    left: -109px; }
+
+  .dfourwidht {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 105px;
+    margin-left: 160px; }
+
+  .dfourcap1 {
+    font-size: 43.6px; }
+
+  .dfourcap2 {
+    font-size: 39.7px;
+    line-height: 59px; }
+
+  .dfourcap3 {
+    font-size: 69.5px;
+    line-height: 71px; }
+
+  .dfourcap4 {
+    font-size: 37.7px;
+    line-height: 52px;
+    margin-bottom: 7px; }
+
+  .dfenglish {
+    margin-bottom: 47px;
+    padding-left: 14px; } }
 
 /*# sourceMappingURL=style-df.css.map */
