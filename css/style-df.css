@@ -1,10 +1,13 @@
+/* line 7, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
 .clear {
   clear: both; }
 
 /*=============our=========*/
+/* line 12, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
 .dfskew {
   transform: skewY(-9deg); }
 
+/* line 15, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
 .dfourbg {
   background-image: url("../img/bgimgdf.png");
   background-repeat: no-repeat;
@@ -12,14 +15,17 @@
   background-size: cover;
   transform: skewY(9deg); }
 
+/* line 22, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
 .dfour {
   text-align: center;
   padding: 250px 0 200px 0px;
   position: relative; }
 
+/* line 27, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
 .dfimgabsolut {
   display: none; }
 
+/* line 30, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
 .dfcaption {
   max-width: 610px;
   width: 100%;
@@ -27,35 +33,42 @@
   font-family: "roundsblack";
   text-transform: uppercase; }
 
+/* line 37, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
 .dfourcap1 {
   display: block;
   font-size: 23.6px;
   color: #378100; }
 
+/* line 42, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
 .dfourcap2 {
   display: block;
   font-size: 30px;
   color: #ffffff; }
 
+/* line 48, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
 .dfourcap3 {
   display: block;
   font-size: 35px;
   color: #ffffff; }
 
+/* line 54, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
 .dfourcap4 {
   display: block;
   font-size: 27.7px;
   color: #378100; }
 
+/* line 62, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
 .dfenglish {
   font-size: 22px;
   color: #ffffff;
   font-family: "roundsblack";
   line-height: 30px;
   margin-bottom: 15px; }
+  /* line 68, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
   .dfenglish span {
     color: #ffe271; }
 
+/* line 74, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
 .dfourwidht {
   max-width: 500px;
   width: 100%;
@@ -63,6 +76,7 @@
   text-align: left;
   padding-left: 15px; }
 
+/* line 82, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
 .dfsuper {
   font-size: 20px;
   color: #eceefa;
@@ -70,6 +84,7 @@
   line-height: 26px;
   margin-bottom: 12px; }
 
+/* line 89, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
 .dfcharacter {
   font-family: "Rubik-Regular";
   font-size: 18px;
@@ -77,15 +92,19 @@
   line-height: 27px;
   list-style-image: url("../img/dot.png");
   padding-left: 17px; }
+  /* line 96, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
   .dfcharacter li {
     position: relative; }
+    /* line 98, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
     .dfcharacter li span {
       font-family: "Rubik-Bold"; }
 
 /*============personal=========*/
+/* line 108, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
 .dfcenter {
   text-align: center; }
 
+/* line 111, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
 .dfcappersonal {
   text-align: center;
   font-size: 24px;
@@ -93,9 +112,11 @@
   font-family: "roundsblack";
   line-height: 38px;
   margin-bottom: 15px; }
+  /* line 118, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
   .dfcappersonal span {
     font-size: 30px; }
 
+/* line 122, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
 .dfpedagogs {
   font-size: 18px;
   color: #378100;
@@ -105,6 +126,7 @@
   font-family: "roundsblack";
   margin: 0 20px 0 72px; }
 
+/* line 131, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
 .dfpersonalchar {
   display: inline-block;
   max-width: 350px;
@@ -113,27 +135,32 @@
   text-align: left;
   margin-bottom: 24px;
   padding-left: 40px; }
+  /* line 139, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
   .dfpersonalchar li {
     font-size: 16px;
     color: #000000;
     line-height: 20px;
     font-family: "Rubik-Regular"; }
 
+/* line 146, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
 .dfsliderbox {
   max-width: 245px;
   width: 100%;
   display: inline-block; }
 
+/* line 151, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
 .dfimgprepod {
   border-radius: 20px;
   height: 370px;
   margin-bottom: 25px; }
 
+/* line 156, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
 #dfslider {
   max-width: 850px;
   width: 100%;
   margin: 0 auto; }
 
+/* line 162, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
 .dfpersonname {
   margin-bottom: 7px;
   display: block;
@@ -141,12 +168,14 @@
   color: #ff740d;
   font-family: "Rubik-Bold"; }
 
+/* line 169, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
 .dfnamejob {
   font-size: 18px;
   line-height: 22px;
   color: #000000;
   font-family: "Rubik-Regular"; }
 
+/* line 178, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
 .dfpercomesoon {
   font-size: 18px;
   color: #000000;
@@ -155,6 +184,7 @@
   text-align: center;
   margin: 35px 0 17px 0; }
 
+/* line 186, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
 .dfwanted {
   font-size: 20px;
   color: #ff740d;
@@ -166,6 +196,7 @@
   text-transform: uppercase;
   border: 3px solid #ff740d; }
 
+/* line 197, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
 .df-left, .df-right {
   position: absolute;
   top: 40%;
@@ -176,24 +207,28 @@
   background-repeat: no-repeat;
   background-position: center; }
 
+/* line 207, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
 .df-right {
   left: unset;
   right: 0px;
   background-image: url("../img/right.png"); }
 
 @media only screen and (min-width: 768px) {
+  /* line 219, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
   .dfpersonalchar {
     padding-left: 0px; } }
+
 @media only screen and (min-width: 1248px) {
+  /* line 228, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
   .dfour {
     padding: 242px 0 345px 250px; }
-
+  /* line 232, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
   .dfimgabsolut {
     display: block;
     position: absolute;
     top: 160px;
     left: -109px; }
-
+  /* line 238, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
   .dfourwidht {
     max-width: unset;
     width: auto;
@@ -201,30 +236,30 @@
     text-align: left;
     padding-left: 105px;
     margin-left: 160px; }
-
+  /* line 246, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
   .dfourcap1 {
     font-size: 43.6px; }
-
+  /* line 249, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
   .dfourcap2 {
     font-size: 39.7px;
     line-height: 59px; }
-
+  /* line 253, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
   .dfourcap3 {
     font-size: 69.5px;
     line-height: 71px; }
-
+  /* line 257, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
   .dfourcap4 {
     font-size: 37.7px;
     line-height: 52px;
     margin-bottom: 7px; }
-
+  /* line 262, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
   .dfenglish {
     margin-bottom: 47px;
     padding-left: 14px; }
-
+  /* line 269, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
   .df-left, .df-right {
     left: -40px; }
-
+  /* line 272, C:/OpenServer/domains/vinny.loc/css/style-df.scss */
   .df-right {
     left: unset;
     right: -40px; } }
