@@ -106,25 +106,19 @@ h2{
 	input[type="text"]::-moz-placeholder { color: #f9770c; }
 }
 .db-form-6{
-	max-width:600px;
-	background: white;
-	padding-top: 20px;
-	position: relative;
-	p{
-		text-align: center;
-		color: black;
-		font-size: 16px;
-		font-family: "Rubik-Bold";
-		padding-bottom: 27px;
+
+	span{
+		color:$yellow;
+		font-family: "Rubik-Bold" !important;
 	}
-	.db-crest{
-		position: absolute;
-		right: -17px;
-		top: -5px;
-		cursor:pointer;
+	p{
+		font-size: 20px !important;
+		font-family: "Rubik-Regular" !important;
+		line-height: 28px;
 	}
 }
-#js-form1, #js-form2, #js-form3, #js-form4, #js-form5, #js-form6, #js-form7{
+
+#js-form1, #js-form2, #js-form3, #js-form4, #js-form5, #js-form6, #js-form7, #js-form8, #js-form9, #js-form10, #js-form11{
 	z-index: 1000;
 	position: fixed;
 	top:0;
@@ -174,27 +168,8 @@ h2{
 }
 
 @media only screen and (min-width : 768px) {
-	.db-form-6{
-		width:600px;
-		background: white;
-		padding-top: 20px;
-		position: relative;
-		p{
-			text-align: center;
-			color: black;
-			font-size: 30px;
-			font-family: "Rubik-Bold";
-			padding-bottom: 27px;
-		}
-		.db-crest{
-			position: absolute;
-			right: 10px;
-			top: 10px;
-			cursor:pointer;
-		}
-	}
-	.db-form{
 
+	.db-form{
 		width: 660px;
 		margin: 0 auto;
 		text-align: center;
