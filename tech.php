@@ -69,7 +69,7 @@
 </div>
 <br><br>
 <div class="js-window" id="js-form7">
-	<form action="#" method="post" class="js-submit db-form-1 db-form db-form-6">
+	<form action="#" method="post" class="db-form-1 db-form db-form-6">
 		<img src="img/krest.png" alt="img" class="db-crest">
 		<p><span>Превосходно!</span><br><br>
 			Пример образовательного маршрута<br>
@@ -81,7 +81,7 @@
 </div>
 <br><br>
 <div class="js-window" id="js-form8">
-	<form action="#" method="post" class="js-submit db-form-1 db-form db-form-6">
+	<form action="#" method="post" class=" db-form-1 db-form db-form-6">
 		<img src="img/krest.png" alt="img" class="db-crest">
 		<p><span>Превосходно!</span><br><br>
 			Пособие по адаптации малыша<br>
@@ -93,7 +93,7 @@
 </div>
 <br><br>
 <div class="js-window" id="js-form9">
-	<form action="#" method="post" class="js-submit db-form-1 db-form db-form-6">
+	<form action="#" method="post" class=" db-form-1 db-form db-form-6">
 		<img src="img/krest.png" alt="img" class="db-crest">
 		<p><span>Отлично!</span><br><br>
 			Совсем скоро мы перезвоним вам<br>
@@ -105,7 +105,7 @@
 </div>
 <br><br>
 <div class="js-window" id="js-form10">
-	<form action="#" method="post" class="js-submit db-form-4 db-form db-form-6">
+	<form action="#" method="post" class="db-form-4 db-form db-form-6">
 		<img src="img/krest.png" alt="img" class="db-crest">
 		<p><span>Отлично!</span><br><br>
 			
@@ -117,7 +117,7 @@
 </div>
 <br><br>
 <div class="js-window" id="js-form11">
-	<form action="#" method="post" class="js-submit db-form-4 db-form db-form-6">
+	<form action="#" method="post" class="db-form-4 db-form db-form-6">
 		<img src="img/krest.png" alt="img" class="db-crest">
 		<p><span>Отлично!</span><br><br>
 			Совсем скоро мы перезвоним вам<br>
