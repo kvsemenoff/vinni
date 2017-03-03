@@ -102,6 +102,9 @@ $yellow:#ffe271;
 	background:url(../img/bot3.png) no-repeat top center;
 	background-size:cover;
 }
+.dd-align-center{
+	text-align: center;
+}
 .dd-bottom-content_h{
 	span{
 		display: block;
@@ -261,6 +264,40 @@ $yellow:#ffe271;
 	}
 }
 
+//4
+.dd-what-to-do_wrap_4{
+	background:url(../img/cam.png) no-repeat top center;
+	background-size:cover;
+	margin-top: 20px;
+	// margin-top: -22px;
+	padding-top: 95px;
+	padding-bottom: 50px;
+}
+.dd-content-cam_wt{
+	max-width: 533px;
+	margin: 0 auto;
+	outline: 1px solid blue;
+	.dd-wsp1_wt{
+		color:$yellow;
+	}
+	.dd-wsp2_wt{
+		color:$yellow;
+		span{
+			color:#fff;
+		}
+	}
+	ul{
+		margin-top: 22px;
+		li{
+			color:#fff;
+			background:url(../img/or.png) no-repeat left center;
+			margin-bottom: 5px;
+		}
+		.last-li-cum{
+			background:url(../img/or.png) no-repeat left top 6px;
+		}
+	}
+}
 
 
 
@@ -271,9 +308,13 @@ $yellow:#ffe271;
 	.section_how{
 		margin-top: -327px;
 	}
+
 }
 
 @media only screen and (min-width : 768px) {
+	.dd-what-to-do_wrap_4{
+		margin-top: 2px;
+	}
 	.dd-content_wt__pots{
 		.dd-wsp1_wt{
 			font-size: 33px;
@@ -290,8 +331,16 @@ $yellow:#ffe271;
 }
 
 @media only screen and (min-width : 992px) {
+	.dd-what-to-do_wrap_4{
+		margin-top: -28px;
+		background:url(../img/cam2.png) no-repeat top center;
+	}
+	.dd-content-cam_wt{
+		float: right;
+	}
 	.dd-what-to-do_wrap_3{
 		background:url(../img/pots.png) no-repeat top center;
+		padding-bottom: 167px;
 	}
 	.dd-container__green{
 		max-width: 1024px;
