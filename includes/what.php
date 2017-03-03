@@ -98,12 +98,12 @@
 		<section class="section dd-what-to-do_wrap_5">
 			<div class=" container">
 				<div class="dd-container">
-					<div class="dd-content_wt">
-						<span class="dd-wsp1_wt">Новый садик - стресс
+					<div class="dd-content_wt dd-content-new_wt">
+						<span class="dd-wsp1_wt">Новый садик - стресс<br>
 							для малыша. Что делать?
 						</span><br>
 						<span class="dd-wsp2_wt">наш ответ: <span>мягкая адаптация</span></span><br>
-						<span>Аадаптации уделяется особое внимание</span>
+						<span class="dd-wsp3_wt">Аадаптации уделяется особое внимание</span>
 						<ul>
 							<li>Активно вовлекаем родителей в процесс адаптации </li>
 							<li>Вы знакомитесь с воспитателем до начала  посещения садика</li>
@@ -112,13 +112,14 @@
 								общается с другими детьми, кушает
 							</li>
 							<li>Консультации и сопровождение психолога на весь период адаптации</li>
-							<li>Вместе с вами планируем график плавного посещения. 
+							<li class="li-new-last">Вместе с вами планируем график плавного посещения. <br>
 								Начиная от 1,5-2 часов в день до полного дня
 							</li>
 						</ul>
-						<span class="span_pots">Получите авторское пособие по мягкой адаптации
+						<span class="dd-wsp3_wt dd-wsp3_wt2">Получите авторское пособие по мягкой адаптации<br>
 							ребёнка в детском саду
-						</span>
+						</span><br>
+						<a class="dd-new-button" href="#">Получить</a>
 					</div>
 				</div>
 				<div class="clearfix"></div>
