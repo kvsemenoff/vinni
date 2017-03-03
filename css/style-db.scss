@@ -18,15 +18,15 @@ h2{
 }
 .db-form{
 	
-	width: 660px;
+	max-width: 660px;
 	margin: 0 auto;
 	text-align: center;
 	padding: 160px 0;
 	position: relative;
 	.db-crest{
 		position: absolute;
-		right: 60px;
-		top: 33px;
+		right: 30px;
+		top: 85px;
 		cursor:pointer;
 	}
 	p{
@@ -53,11 +53,11 @@ h2{
 		margin-top: 1px;
 	}
 	input[type="text"]::-webkit-input-placeholder { color: #70d1ff;}    
-    input[type="text"]::-moz-placeholder { color: #70d1ff;}
+	input[type="text"]::-moz-placeholder { color: #70d1ff;}
 }
 .db-form-1{
-background: url("../img/form1.png") no-repeat top center;
-input[type="submit"]{
+	background: url("../img/form1.png") no-repeat top center;
+	input[type="submit"]{
 		padding: 13px 71px !important;
 	}
 	input[type="text"]{
@@ -66,8 +66,8 @@ input[type="submit"]{
 
 }
 .db-form-2{
-background: url("../img/form1.png") no-repeat top center;
-input[type="submit"]{
+	background: url("../img/form1.png") no-repeat top center;
+	input[type="submit"]{
 		padding: 13px 64px !important;
 	}
 	input[type="text"]{
@@ -75,8 +75,8 @@ input[type="submit"]{
 	}
 }
 .db-form-3{
-background: url("../img/form1.png") no-repeat top center;
-input[type="submit"]{
+	background: url("../img/form1.png") no-repeat top center;
+	input[type="submit"]{
 		padding: 13px 52px !important;
 	}
 	input[type="text"]{
@@ -84,47 +84,41 @@ input[type="submit"]{
 	}
 }
 .db-form-4{
-background: url("../img/form2.png") no-repeat top center;
-input[type="submit"]{
+	background: url("../img/form2.png") no-repeat top center;
+	input[type="submit"]{
 		padding: 13px 33px !important;
 	}
 	input[type="text"]{
 		color: #f9770c;
 	}
 	input[type="text"]::-webkit-input-placeholder { color: #f9770c; }    
-    input[type="text"]::-moz-placeholder { color: #f9770c; }
+	input[type="text"]::-moz-placeholder { color: #f9770c; }
 }
 .db-form-5{
-background: url("../img/form2.png") no-repeat top center;
-input[type="submit"]{
+	background: url("../img/form2.png") no-repeat top center;
+	input[type="submit"]{
 		padding: 13px 52px !important;
 	}
 	input[type="text"]{
 		color: #f9770c;
 	}
 	input[type="text"]::-webkit-input-placeholder { color: #f9770c; }    
-    input[type="text"]::-moz-placeholder { color: #f9770c; }
+	input[type="text"]::-moz-placeholder { color: #f9770c; }
 }
 .db-form-6{
-	width:600px;
-	background: white;
-	padding-top: 20px;
-	position: relative;
-p{
-	text-align: center;
-		color: black;
-		font-size: 30px;
-		font-family: "Rubik-Bold";
-		padding-bottom: 27px;
+
+	span{
+		color:$yellow;
+		font-family: "Rubik-Bold" !important;
 	}
-	.db-crest{
-		position: absolute;
-		right: 10px;
-		top: 10px;
-		cursor:pointer;
+	p{
+		font-size: 20px !important;
+		font-family: "Rubik-Regular" !important;
+		line-height: 28px;
 	}
 }
-#js-form1, #js-form2, #js-form3, #js-form4, #js-form5, #js-form6, #js-form7{
+
+#js-form1, #js-form2, #js-form3, #js-form4, #js-form5, #js-form6, #js-form7, #js-form8, #js-form9, #js-form10, #js-form11{
 	z-index: 1000;
 	position: fixed;
 	top:0;
@@ -133,6 +127,40 @@ p{
 	display: none;
 }
 
+.section_for_me-view{
+	background: url("../img/db-for.png")no-repeat center center;
+	padding: 285px 0;
+	text-align: center;
+	font-family: "roundsblack"; 
+}
+
+.db-for-me-block{
+	position: relative;
+	.db-one-p{
+		font-size: 28px;
+		line-height: 46px;
+		color: white;
+		padding-bottom: 23px;
+		.db-one-span{
+			color: #043062;
+			font-size: 40px;
+			line-height: 56px;
+		}
+		.db-two-span{
+			color: #043062;
+			line-height: 50px;
+		}
+	}
+	.db-two-p{
+		line-height: 46px;
+		color: white;
+		font-size: 20px;
+		span{
+			color: #ffe271;
+			font-size: 40px;
+		}
+	}
+}
 @media only screen and (min-width : 320px) {
 }
 
@@ -140,9 +168,72 @@ p{
 }
 
 @media only screen and (min-width : 768px) {
+
+	.db-form{
+		width: 660px;
+		margin: 0 auto;
+		text-align: center;
+		padding: 160px 0;
+		position: relative;
+		.db-crest{
+			position: absolute;
+			right: 60px;
+			top: 33px;
+			cursor:pointer;
+		}
+		p{
+			margin-top: -20px;
+			color: white;
+			font-size: 20px;
+			font-family: "Rubik-Bold";
+			padding-bottom: 27px;
+		}
+		input[type="submit"]{
+			background: none;
+			color: white;
+			border: 3px solid white;
+			font-size: 20px;
+			margin-top: 15px;
+		}
+		input[type="text"]{
+
+			border: 3px solid white;
+			font-size: 20px;
+			font-family: "Rubik-Regular";
+			padding: 6px 3px;
+			text-align: center;
+			margin-top: 1px;
+		}
+		input[type="text"]::-webkit-input-placeholder { color: #70d1ff;}    
+		input[type="text"]::-moz-placeholder { color: #70d1ff;}
+	}
 }
 
 @media only screen and (min-width : 992px) {
+	.db-for-me-block:before{
+	content:"";
+	background: url("../img/db-woman.png")no-repeat top left;
+	position: absolute;
+	top: -95px;
+	left: -113px;
+	width:498px;
+	height: 650px;
+}
+.db-for-me-block{
+	.db-one-p{
+		font-size: 38px;
+		.db-one-span{
+			font-size: 50px;
+		}
+	}
+	.db-two-p{
+		font-size: 30px;
+		span{
+			font-size: 50px;
+		}
+	}
+}
+
 }
 
 @media only screen and (min-width : 1248px) {

@@ -150,7 +150,7 @@
 				</div>
 			
 			<h4 class="dfpercomesoon">Приезжайте в гости и пообщайтесь с каждым педагогом лично</h4>
-			<a href="#" class="dfwanted">Да, это важно!</a>
+			<a href="#js-form3" name="js-modal" class="dfwanted">Да, это важно!</a>
 		</div>
 	</div>
 </div>
