@@ -6,11 +6,9 @@ $(document).ready(function(){
 
     $(window).scroll(function(){
            var b = $(window).scrollTop() - (a-150);
-console.log(b);
         $('.parallax').css({
             "transform" : "translate(0%, "+ b/15 +"%)"
         });
-
     });
 
 
