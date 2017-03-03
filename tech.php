@@ -14,7 +14,7 @@
 		<input type="text" name="email" placeholder="E-mail"><br><br>
 		<input type="text" name="phone" placeholder="Телефон" class="js-mask"><br><br>
 		<input type="submit" name="submit" value="скачать" 
-		class="button-1 js-submit">
+		class="button-1 js-submit_one">
 	</form>
 </div>
 <br><br>
@@ -64,7 +64,7 @@
 		<p>Приходите в гости в удобное время</p>
 		<input type="text" name="phone" placeholder="Телефон" class="js-mask"><br><br>
 		<input type="text" name="date" placeholder="Удобная дата" class="js-date"><br><br>
-		<input type="submit" name="submit" value="записаться" class="button-1 js-submit">
+		<input type="submit" name="submit" value="записаться" class="button-1 js-submit-six">
 	</form>
 </div>
 <br><br>

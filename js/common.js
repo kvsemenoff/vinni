@@ -52,7 +52,7 @@ $(document).ready(function(){
                 // location = "thanks.php";
             };
 
-            $('.js-submit').submit(function(){
+            $('.js-submit_one').submit(function(){
                 var phone = $(this).find('input[name="phone"]');
 
                 if(phone.val() == ""){
@@ -136,7 +136,7 @@ $(document).ready(function(){
                 // location = "thanks.php";
             };
 
-            $('.js-submit').submit(function(){
+            $('.js-submit-six').submit(function(){
                 var phone = $(this).find('input[name="phone"]');
 
                 if(phone.val() == ""){
