@@ -28,4 +28,13 @@
 		</div>
 	</div>
 </div>
+<div class="js-window" id="js-form6">
+		<form action="#" method="post" class="js-submit db-form-5 db-form">
+		<img src="img/krest.png" alt="img" class="db-crest">
+			<p>Приходите в гости в удобное время</p>
+			<input type="text" name="phone" placeholder="Телефон" class="js-mask"><br><br>
+			<input type="text" name="date" placeholder="Удобная дата" class="js-date"><br><br>
+			<input type="submit" name="submit" value="записаться" class="button-1 js-submit">
+		</form>
+</div>
 </section>
