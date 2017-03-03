@@ -24,7 +24,7 @@ $(document).ready(function(){
 
 });
  /*MODAL SUBMIT*/
- $('.js-submit1').submit(function(){
+ $('.js-submit').submit(function(){
     var phone = $(this).find('input[name="phone"]');
 
     if(phone.val() == ""){

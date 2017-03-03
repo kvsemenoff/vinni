@@ -14,7 +14,7 @@
 		<input type="text" name="email" placeholder="E-mail"><br><br>
 		<input type="text" name="phone" placeholder="Телефон" class="js-mask"><br><br>
 		<input type="submit" name="submit" value="скачать" 
-		class="button-1 js-submit1">
+		class="button-1 js-submit">
 	</form>
 </div>
 <br><br>
