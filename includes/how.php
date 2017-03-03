@@ -30,7 +30,7 @@
 
 <section class="dd-bottom-wrap_h">
 	<div class="container">
-		<div class="dd-container">
+		<div class="dd-container dd-align-center">
 			<div class="dd-bottom-content_h">
 				<span>Для любящих мамы и папы</span>
 				<span>здоровье и безопасность</span>

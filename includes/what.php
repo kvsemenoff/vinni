@@ -69,3 +69,26 @@
 			</div>
 		</div>
 	</section>
+
+	<section class="section dd-what-to-do_wrap_4">
+		<div class=" container">
+			<div class="dd-container">
+				<div class="dd-content_wt dd-content-cam_wt">
+					<span class="dd-wsp1_wt">У вас безопасно?</span><br>
+					<span class="dd-wsp2_wt">отвечаем: <span>да</span></span><br>
+					<ul>
+						<li>Своя закрытая территория</li>
+						<li>Круглосуточное видеонаблюдение на территории садика</li>
+						<li>Вход через домофон с камерой</li>
+						<li>Тревожная кнопка </li>
+						<li>Специальные ворота безопасности на лестницах</li>
+						<li>Дети всегда под присмотром взрослых</li>
+						<li>Специальные крепления на окнах и заглушки на розетках</li>
+						<li class="last-li-cum">Персонал детского сада проходит инструктажи
+							по технике безопасности
+						</li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</section>
