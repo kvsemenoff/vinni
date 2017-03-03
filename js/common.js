@@ -3,6 +3,7 @@
 $(document).ready(function(){
 
 
+
    $('.js-mask').mask("+7 (999) 999 - 99 - 99?");
    $('.js-date').mask("99 - 99 - 9999?");
    /*MODAL WINDOW*/
@@ -16,7 +17,22 @@ $(document).ready(function(){
     $('body').css("overflow-y", "hidden");
     $(id).fadeIn();
     $('#js-mask').fadeIn();
-});
+    });
+
+   var a = $('.parallax').offset().top;
+
+    $(window).scroll(function(){
+           var b = $(window).scrollTop() - a ;
+console.log(b);
+        $('.parallax').css({
+            "transform" : "translate(0%, "+ b/15 +"%)"
+        });
+
+
+    });
+
+
+
 
    $('.db-crest').on("click", function(){
     $('#js-mask').hide();
