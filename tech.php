@@ -24,7 +24,7 @@
 		<p>	Получите пособие по адаптации ребёнка в садике</p>
 		<input type="text" name="email" placeholder="E-mail"><br><br>
 		<input type="text" name="phone" placeholder="Телефон" class="js-mask"><br><br>
-		<input type="submit" name="submit" value="получить" class="button-1 js-submit2">
+		<input type="submit" name="submit" value="получить" class="button-1 js-submit">
 	</form>
 </div>
 <br><br>
@@ -34,7 +34,7 @@
 		<p>	Приезжайте пообщаться с педагогами</p>
 		<input type="text" name="uname" placeholder="Как вас зовут"><br><br>
 		<input type="text" name="phone" placeholder="Телефон" class="js-mask"><br><br>
-		<input type="submit" name="submit" value="записаться" class="button-1 js-submit3">
+		<input type="submit" name="submit" value="записаться" class="button-1 js-submit">
 	</form>
 </div>
 <br><br>
@@ -44,7 +44,7 @@
 		<p>	Забронируйте место для своего малыша</p>
 		<input type="text" name="uname" placeholder="Как вас зовут"><br><br>
 		<input type="text" name="phone" placeholder="Телефон" class="js-mask"><br><br>
-		<input type="submit" name="submit" value="забронировать" class="button-1 js-submit4">
+		<input type="submit" name="submit" value="забронировать" class="button-1 js-submit">
 	</form>
 </div>
 <br><br>
@@ -54,7 +54,7 @@
 		<p>Запишитесь на бесплатное посещение</p>
 		<input type="text" name="phone" placeholder="Телефон" class="js-mask"><br><br>
 		<input type="text" name="date" placeholder="Удобная дата" class="js-date"><br><br>
-		<input type="submit" name="submit" value="записаться" class="button-1 js-submit5">
+		<input type="submit" name="submit" value="записаться" class="button-1 js-submit">
 	</form>
 </div>
 <br><br>
@@ -64,7 +64,7 @@
 		<p>Приходите в гости в удобное время</p>
 		<input type="text" name="phone" placeholder="Телефон" class="js-mask"><br><br>
 		<input type="text" name="date" placeholder="Удобная дата" class="js-date"><br><br>
-		<input type="submit" name="submit" value="записаться" class="button-1 js-submit6">
+		<input type="submit" name="submit" value="записаться" class="button-1 js-submit">
 	</form>
 </div>
 <br><br>

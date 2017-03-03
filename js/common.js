@@ -52,7 +52,7 @@ $(document).ready(function(){
                 // location = "thanks.php";
             };
 
-            $('.js-submit2').submit(function(){
+            $('.js-submit').submit(function(){
                 var phone = $(this).find('input[name="phone"]');
 
                 if(phone.val() == ""){
@@ -80,7 +80,7 @@ $(document).ready(function(){
                 // location = "thanks.php";
             };
 
-            $('.js-submit3').submit(function(){
+            $('.js-submit').submit(function(){
                 var phone = $(this).find('input[name="phone"]');
 
                 if(phone.val() == ""){
@@ -108,7 +108,7 @@ $(document).ready(function(){
                 // location = "thanks.php";
             };
 
-            $('.js-submit4').submit(function(){
+            $('.js-submit').submit(function(){
                 var phone = $(this).find('input[name="phone"]');
 
                 if(phone.val() == ""){
@@ -136,7 +136,7 @@ $(document).ready(function(){
                 // location = "thanks.php";
             };
 
-            $('.js-submit5, .js-submit6').submit(function(){
+            $('.js-submit').submit(function(){
                 var phone = $(this).find('input[name="phone"]');
 
                 if(phone.val() == ""){
