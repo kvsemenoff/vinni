@@ -24,7 +24,7 @@ $(document).ready(function(){
 
 });
  /*MODAL SUBMIT*/
- $('#js-submit').submit(function(){
+ $('.js-submit1').submit(function(){
     var phone = $(this).find('input[name="phone"]');
 
     if(phone.val() == ""){
@@ -52,7 +52,7 @@ $(document).ready(function(){
                 // location = "thanks.php";
             };
 
-            $('#js-submit-two').submit(function(){
+            $('.js-submit2').submit(function(){
                 var phone = $(this).find('input[name="phone"]');
 
                 if(phone.val() == ""){
@@ -80,7 +80,7 @@ $(document).ready(function(){
                 // location = "thanks.php";
             };
 
-            $('#js-submit-three').submit(function(){
+            $('.js-submit3').submit(function(){
                 var phone = $(this).find('input[name="phone"]');
 
                 if(phone.val() == ""){
@@ -108,7 +108,7 @@ $(document).ready(function(){
                 // location = "thanks.php";
             };
 
-            $('#js-submit-four').submit(function(){
+            $('.js-submit4').submit(function(){
                 var phone = $(this).find('input[name="phone"]');
 
                 if(phone.val() == ""){
@@ -136,7 +136,7 @@ $(document).ready(function(){
                 // location = "thanks.php";
             };
 
-            $('#js-submit-five').submit(function(){
+            $('.js-submit5, .js-submit6').submit(function(){
                 var phone = $(this).find('input[name="phone"]');
 
                 if(phone.val() == ""){
