@@ -2,6 +2,16 @@
 
 $(document).ready(function(){
 
+   var a = $('.parallax').offset().top;
+
+    $(window).scroll(function(){
+           var b = $(window).scrollTop() - (a-150);
+console.log(b);
+        $('.parallax').css({
+            "transform" : "translate(0%, "+ b/15 +"%)"
+        });
+
+    });
 
 
    $('.js-mask').mask("+7 (999) 999 - 99 - 99?");
@@ -16,26 +26,11 @@ $(document).ready(function(){
     $(id).css("top", winH/2-$(id).height()/2);
     $('body').css("overflow-y", "hidden");
     $(id).fadeIn();
-    $('#js-mask').fadeIn();
+    $('#js-mask-form').fadeIn();
     });
 
-   var a = $('.parallax').offset().top;
-
-    $(window).scroll(function(){
-           var b = $(window).scrollTop() - (a-150);
-console.log(b);
-        $('.parallax').css({
-            "transform" : "translate(0%, "+ b/15 +"%)"
-        });
-
-
-    });
-
-
-
-
-   $('.db-crest').on("click", function(){
-    $('#js-mask').hide();
+   $('.db-crest, #js-mask-form').on("click", function(){
+    $('#js-mask-form').hide();
     $('.js-window').hide();
     $('body').removeAttr('style');
 
