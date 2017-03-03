@@ -2,7 +2,7 @@
 	<div class=" container">
 		<div class="row">
 			<div class="col-md-12">
-				<div class="db-for-me-block">
+				<div class="db-for-me-block parallax">
 					<p class="db-one-p">
 						Для меня важно,<br>
 						<span class="db-one-span">кто будет работать </span><br>

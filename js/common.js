@@ -2,16 +2,7 @@
 
 $(document).ready(function(){
 
-$(window).on("scroll", function(){
-  var st = $(this).scrollTop();
- 
 
-  
-     $(".db-for-me-block").css({
-        "transform" : "translate(0%, "+ st/20 +"%)"
-    });
-
-});
    $('.js-mask').mask("+7 (999) 999 - 99 - 99?");
    $('.js-date').mask("99 - 99 - 9999?");
    /*MODAL WINDOW*/
