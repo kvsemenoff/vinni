@@ -8,68 +8,68 @@
 
 <br><br><br><br>		
 <div class="js-window" id="js-form1">
-	<form action="#" method="post" class="js-submit db-form-1 db-form">
+	<form action="#" method="post" class="js-submit1 db-form-1 db-form">
 		<img src="img/krest.png" alt="img" class="db-crest">
 		<p>	Скачать пример образовательного маршрута</p>
 		<input type="text" name="email" placeholder="E-mail"><br><br>
 		<input type="text" name="phone" placeholder="Телефон" class="js-mask"><br><br>
 		<input type="submit" name="submit" value="скачать" 
-		class="button-1" id="js-submit">
+		class="button-1">
 	</form>
 </div>
 <br><br>
 <div class="js-window" id="js-form2">
-	<form action="#" method="post" class="js-submit db-form-2 db-form">
+	<form action="#" method="post" class="js-submit2 db-form-2 db-form">
 		<img src="img/krest.png" alt="img" class="db-crest">
 		<p>	Получите пособие по адаптации ребёнка в садике</p>
 		<input type="text" name="email" placeholder="E-mail"><br><br>
 		<input type="text" name="phone" placeholder="Телефон" class="js-mask"><br><br>
-		<input type="submit" name="submit" value="получить" class="button-1" id="js-submit-two">
+		<input type="submit" name="submit" value="получить" class="button-1" >
 	</form>
 </div>
 <br><br>
 <div class="js-window" id="js-form3">
-	<form action="#" method="post" class="js-submit db-form-3 db-form">
+	<form action="#" method="post" class="js-submit3 db-form-3 db-form">
 		<img src="img/krest.png" alt="img" class="db-crest">
 		<p>	Приезжайте пообщаться с педагогами</p>
 		<input type="text" name="uname" placeholder="Как вас зовут"><br><br>
 		<input type="text" name="phone" placeholder="Телефон" class="js-mask"><br><br>
-		<input type="submit" name="submit" value="записаться" class="button-1" id="js-submit-free">
+		<input type="submit" name="submit" value="записаться" class="button-1">
 	</form>
 </div>
 <br><br>
 <div class="js-window" id="js-form4">
-	<form action="#" method="post" class="js-submit db-form-4 db-form">
+	<form action="#" method="post" class="js-submit4 db-form-4 db-form">
 		<img src="img/krest.png" alt="img" class="db-crest">
 		<p>	Забронируйте место для своего малыша</p>
 		<input type="text" name="uname" placeholder="Как вас зовут"><br><br>
 		<input type="text" name="phone" placeholder="Телефон" class="js-mask"><br><br>
-		<input type="submit" name="submit" value="забронировать" class="button-1" id="js-submit-four">
+		<input type="submit" name="submit" value="забронировать" class="button-1">
 	</form>
 </div>
 <br><br>
 <div class="js-window" id="js-form5">
-	<form action="#" method="post" class="js-submit db-form-5 db-form">
+	<form action="#" method="post" class="js-submit5 db-form-5 db-form">
 		<img src="img/krest.png" alt="img" class="db-crest">
 		<p>Запишитесь на бесплатное посещение</p>
 		<input type="text" name="phone" placeholder="Телефон" class="js-mask"><br><br>
 		<input type="text" name="date" placeholder="Удобная дата" class="js-date"><br><br>
-		<input type="submit" name="submit" value="записаться" class="button-1" id="js-submit-five">
+		<input type="submit" name="submit" value="записаться" class="button-1">
 	</form>
 </div>
 <br><br>
 <div class="js-window" id="js-form6">
-	<form action="#" method="post" class="js-submit db-form-5 db-form">
+	<form action="#" method="post" class="js-submit5 db-form-5 db-form">
 		<img src="img/krest.png" alt="img" class="db-crest">
 		<p>Приходите в гости в удобное время</p>
 		<input type="text" name="phone" placeholder="Телефон" class="js-mask"><br><br>
 		<input type="text" name="date" placeholder="Удобная дата" class="js-date"><br><br>
-		<input type="submit" name="submit" value="записаться" class="button-1" id="js-submit-five">
+		<input type="submit" name="submit" value="записаться" class="button-1">
 	</form>
 </div>
 <br><br>
 <div class="js-window" id="js-form7">
-	<form action="#" method="post" class="js-submit db-form-1 db-form db-form-6">
+	<form action="#" method="post" class="db-form-1 db-form db-form-6">
 		<img src="img/krest.png" alt="img" class="db-crest">
 		<p><span>Превосходно!</span><br><br>
 			Пример образовательного маршрута<br>
@@ -81,7 +81,7 @@
 </div>
 <br><br>
 <div class="js-window" id="js-form8">
-	<form action="#" method="post" class="js-submit db-form-1 db-form db-form-6">
+	<form action="#" method="post" class=" db-form-1 db-form db-form-6">
 		<img src="img/krest.png" alt="img" class="db-crest">
 		<p><span>Превосходно!</span><br><br>
 			Пособие по адаптации малыша<br>
@@ -93,7 +93,7 @@
 </div>
 <br><br>
 <div class="js-window" id="js-form9">
-	<form action="#" method="post" class="js-submit db-form-1 db-form db-form-6">
+	<form action="#" method="post" class=" db-form-1 db-form db-form-6">
 		<img src="img/krest.png" alt="img" class="db-crest">
 		<p><span>Отлично!</span><br><br>
 			Совсем скоро мы перезвоним вам<br>
@@ -105,7 +105,7 @@
 </div>
 <br><br>
 <div class="js-window" id="js-form10">
-	<form action="#" method="post" class="js-submit db-form-4 db-form db-form-6">
+	<form action="#" method="post" class="db-form-4 db-form db-form-6">
 		<img src="img/krest.png" alt="img" class="db-crest">
 		<p><span>Отлично!</span><br><br>
 			
@@ -117,7 +117,7 @@
 </div>
 <br><br>
 <div class="js-window" id="js-form11">
-	<form action="#" method="post" class="js-submit db-form-4 db-form db-form-6">
+	<form action="#" method="post" class="db-form-4 db-form db-form-6">
 		<img src="img/krest.png" alt="img" class="db-crest">
 		<p><span>Отлично!</span><br><br>
 			Совсем скоро мы перезвоним вам<br>
