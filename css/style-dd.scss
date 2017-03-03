@@ -299,6 +299,41 @@ $yellow:#ffe271;
 	}
 }
 
+//5
+.dd-what-to-do_wrap_5{
+	background:url(../img/last.png) no-repeat top center;
+	background-size:cover;
+	margin-top: -30px;
+	padding-top: 120px;
+}
+.dd-content-new_wt{
+	max-width: 622px;
+	margin: 0 auto;
+	ul{
+		li{
+			margin-bottom: 6px;
+		}
+		.li-new-last{
+			background: url(../img/disk.png) no-repeat left top 7px;
+		}
+	}
+	.dd-wsp3_wt2{
+		font-size: 20px;
+	}
+	.dd-new-button{
+		display: inline-block;
+		width: 244px;
+		height: 55px;
+		line-height: 49px;
+		border-radius: 20px;
+		text-transform: uppercase;
+		font-family: "Rubik-Regular";
+		font-size: 20px;
+		text-align: center;
+		border:2px solid #FF740D;
+		color:#FF740D;
+	}
+}
 
 
 @media only screen and (min-width : 320px) {
@@ -331,9 +366,16 @@ $yellow:#ffe271;
 }
 
 @media only screen and (min-width : 992px) {
+	.dd-what-to-do_wrap_5{
+		background:url(../img/lbg.png) no-repeat top center;
+	}
+	.dd-content-new_wt{
+		float: left;
+	}
 	.dd-what-to-do_wrap_4{
 		margin-top: -28px;
 		background:url(../img/cam2.png) no-repeat top center;
+		padding-bottom: 90px;
 	}
 	.dd-content-cam_wt{
 		float: right;
