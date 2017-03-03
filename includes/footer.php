@@ -8,7 +8,7 @@
 пообщаетесь с воспитателями и родителями наших деток.</p>
             <p class="footer-conditions">Подышите чистым воздухом:)</p>
             <h3 class="footer-register__title">Запишитесь <span class="footer-register__span">на свободную дату</span></h3>
-            <a href="#" class="button-1 footer-btn">Записаться</a>
+            <a href="#js-form6" name="js-modal" class="button-1 footer-btn">Записаться</a>
             <div class="footer-call__block">
                 <h3 class="footer-call-title">Или просто позвоните</h3>
                 <p class="footer-call__number">+7 (812) 426-13-92</p>
@@ -22,7 +22,7 @@
                 </div>
                 <div class="footer-socials__right">
                     <span class="footer-socials-text">Мы в соцсетях</span>
-                    <a href="#" class="footer-socials-link"><img src="img/footer-vk.png" alt="" class="footer-socials-vk"></a>
+                    <a href="#"  class="footer-socials-link"><img src="img/footer-vk.png" alt="" class="footer-socials-vk"></a>
                 </div>
             </div>
 		</div>
