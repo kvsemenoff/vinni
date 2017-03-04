@@ -1,5 +1,5 @@
 <section class="section section_padding find">
-<div class=" container">
+<div class="container footer-container">
 	<div class="row">
 		<div class="col-md-12 find-wrapper">
             <div class="col-md-5 find-left">
@@ -47,7 +47,18 @@
                 </div>
             </div>
             <div class="col-md-7 find-right">
-                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=oodTp33WBVPXRIiemJtcVjDVmTVsZvmg&amp;width=100%25&amp;height=600&amp;lang=ru_RU&amp;sourceType=constructor&amp;"></script>
+               <div id="YMapsID" style="width:100%;height:700px">
+                    <script type="text/javascript">
+                        // Создает обработчик события window.onLoad
+                        YMaps.jQuery(function () {
+                            // Создает экземпляр карты и привязывает его к созданному контейнеру
+                            var map = new YMaps.Map(YMaps.jQuery("#YMapsID")[0]);
+
+                            // Устанавливает начальные параметры отображения карты: центр карты и коэффициент масштабирования
+                            map.setCenter(new YMaps.GeoPoint(60.090432, 30.289997), 10);
+                        })
+                    </script>
+                </div>
             </div>
 		</div>
 	</div>

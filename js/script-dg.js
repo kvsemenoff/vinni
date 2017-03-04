@@ -29,4 +29,13 @@ $(document).ready(function(){
           }
         }
       });
+    var s = new YMaps.Style();
+    s.iconStyle = new YMaps.IconStyle();
+    s.iconStyle.href = "/img/pin.png";
+    s.iconStyle.size = new YMaps.Point(46, 76);
+    s.iconStyle.offset = new YMaps.Point(-9, -29);
+    var map = new YMaps.Map(YMaps.jQuery("#YMapsID")[0]);
+    map.setCenter(new YMaps.GeoPoint(30.289997, 60.090432), 13);
+    var placemark = new YMaps.Placemark(new YMaps.GeoPoint(30.289997, 60.090432),{style: s});
+    map.addOverlay(placemark);
 })
