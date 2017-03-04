@@ -106,7 +106,7 @@ $yellow:#ffe271;
 
 /*============personal=========*/
 .dfwhitebg{
-	background-color: #fff;
+	margin-top: -190px;
 }
 .dfcenter{
 	text-align: center;
@@ -190,7 +190,7 @@ $yellow:#ffe271;
 	line-height: 20px;
 	font-family: "Rubik-Bold";
 	text-align: center;
-	margin: 38px 0px 19px 22px;
+	margin: 7px 0px 19px 0px;
 }
 .dfwanted{
 	font-size: 20px;
@@ -292,8 +292,156 @@ $yellow:#ffe271;
 
 
 
+/*================select ===========*/
+.dfselect{
+	text-align: center;
+}
+.dfbgselect{
+	background-image: url("../img/bgimgdf2.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	padding: 380px 0 375px 0;	
+	margin: -270px 0 -490px 0;
+}
+.dfcapselect{
+	font-family: "roundsblack";
+	font-size: 34px;
+	color: #fff;
+	line-height: 45px;
+	text-align: center;
+	margin-bottom: 47px;
+	span{	
+		font-size: 40px;
+	}
+}
+.dfkidblock{
+	max-width: 490px;
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 25px;	
+}
+.dfkidleftbox{
+	max-width: 235px;
+	width: 100%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;	
+	position: relative;		
+	h4{
+		font-size: 28px;
+		color: #378100;
+		font-family: "roundsblack";
+		padding-left: 10px;
+	}
+	img{
+		display: inline-block;
+		width: 100%;
+		height: auto;		
+	}
+}
+.dfkidrightbox{
+	vertical-align: top;
+	max-width: 250px;
+	width: 100%;
+	display: inline-block;
+	// padding-left: 20px;
+}
+.dftextall{
+	// min-height: 272px;
+	padding-left: 5px;	
+	text-align: left;
+}
+.dfselecttext{
+	font-family: "roundsblack";		
+	margin-bottom: 13px;
+	h4{
+		font-size: 20px;		
+		color: #ffffff;
+		line-height: 30.5px;
+	}
+	span{
+		font-size: 15.6px;
+		color: #ffffff;
+		font-family: "Rubik-Regular";		
+		line-height: 19px;
+    	display: inline-block;
+	}
+}
 
+.dftxtbox2{
+	h4{
+		font-size: 16px;
+		line-height: 18px;
+	}
+}
 
+.dfselbutton{
+	padding-left: 7px;
+}
+.dfmest{
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffe271;
+	font-family: "Rubik-Bold";	
+	margin-bottom: 17px;
+	display: inline-block;
+}
+.dfbron{
+	color: white;
+	font-family: "Rubik-Regular";	
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 22px;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 15px 25px;
+	border: 3px solid #fff;
+	border-radius: 20px;
+}
+
+.dfselecttime{
+	text-align: center;
+	padding-left: 0px;
+	h3{
+		color: white;
+		font-family: "roundsblack";	
+		font-size: 34px;
+		font-weight: 400;
+		// line-height: 22px;
+		margin-bottom: 37px;
+		margin-top: 22px;	
+	}
+	h4{
+		color: #fff;
+		font-family: "Rubik-Bold";	
+		font-size: 20px;
+		font-weight: 700;
+		line-height: 22px;
+		margin: 15px 0;
+		span{
+			color: #ffe271;
+		}
+	}
+}
+.dftime{
+	color: #ffe271;
+	font-family: "roundsblack";
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 34px;
+	text-align: left;
+	max-width: 420px;
+    width: 100%;
+    margin: 0 auto;   
+	span{
+		font-size: 20px;		
+		font-family: "Rubik-Regular";	
+		color: #fff;
+		display: inline-block;
+		padding-left: 10px;
+	}
+}
 
 
 
@@ -304,6 +452,13 @@ $yellow:#ffe271;
 }
 
 @media only screen and (min-width : 480px) {
+	.dfbgselect{		
+		padding: 310px 0 390px 0;
+		margin: -130px 0 -350px 0;
+	}
+	.dfwhitebg{
+		margin-top: -100px;
+	}
 }
 
 @media only screen and (min-width : 768px) {
@@ -313,8 +468,15 @@ $yellow:#ffe271;
 }
 
 @media only screen and (min-width : 992px) {
+	/*personal*/
 	.dfpedagogs{		
 		margin: 0 20px 0 79px;
+	}
+	.dfwhitebg{	
+		margin-top: -40px;
+	}
+	.dfpercomesoon{		
+		margin: 38px 0px 19px 22px;
 	}
 	/////================photo
 	.dfcapph{
@@ -332,6 +494,47 @@ $yellow:#ffe271;
 	}
 	.jshide{
 		padding-bottom: 70px;
+	}
+
+	/*=========select*/
+	.dfbgselect{		
+		padding: 280px 0 255px 0;
+		margin: -70px 0 -300px 0;
+	}
+	.dfkidblock{		
+		text-align: left;
+	}
+	.dfkidleftbox{		
+		min-height: 350px;		
+		img{			
+			position: absolute;
+			top:40px;
+			left: -27px;
+		}
+	}
+	.dftextall{
+		min-height: 272px;		
+	}
+	.dfkidblock{		
+		margin-bottom: 65px;	
+	}
+	.dfselecttime{		
+		padding-left: 50px;
+		h3{			
+			line-height: 22px;
+			margin-bottom: 37px;
+			margin-top: 22px;	
+		}	
+		h4{			
+			margin: 30px 0;
+		}	
+	}
+	.dftime{					    	    
+	    padding-left: 30px;	
+	    font-size: 28px;
+	    span{
+			font-size: 24px;				
+		}	
 	}
 }
 
