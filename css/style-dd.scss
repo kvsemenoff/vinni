@@ -343,7 +343,7 @@ $yellow:#ffe271;
 .dd-header-container{
 	max-width: 958px;
 	margin: 0 auto;
-	outline: 2px solid blue;
+	position: relative;
 }
 .dd-top-box{
 	text-align: center;
@@ -395,19 +395,64 @@ $yellow:#ffe271;
 	}
 }
 .dd-top-bottom{
-	width: 204px;
+	width: 222px;
+	margin: 0 auto;
 	text-align: center;
-	padding-top: 100px;
+	padding: 50px 0px;
+	// padding-top: 100px;
 	span{
 		font-family: "roundsblack";
 		font-size: 28px;
 		color:#FF740D;
 	}
 }
-
-
-
-
+.item-play{
+	text-align: center;
+	border: 4px solid #FF740D;
+	border-radius: 40px;
+	max-width: 543px;
+	margin: 0 auto;
+	padding: 100px 0px;
+	margin-top: 57px;
+}
+.dd-video-header{
+	background: url(../img/fon.png) no-repeat top center;
+	padding-top: 221px;
+	margin-top: -195px;
+	// margin-top: -336px;
+	// padding-top: 242px;
+}
+.dd-str{
+	position: absolute;
+	left:25%;
+	bottom:-93px;
+}
+.dd-video-txt{
+	text-align: center;
+	max-width: 470px;
+	margin: 0 auto;	
+	padding-top: 34px;
+	span{
+		display: inline-block;
+	}
+	span:nth-child(1){
+		font-family: "Rubik-Bold";
+		font-size: 28px;
+		color:#FF740D;
+		margin-bottom: 24px;
+	}
+	.nsp1{
+		font-family: "roundsblack";
+		font-size: 28px;
+		color:#6EB400;
+	}
+	.nsp2{
+		font-family: "roundsblack";
+		// font-size: 48px;
+		font-size: 39px;
+		color:#378100;
+	}
+}
 
 
 
@@ -422,10 +467,25 @@ $yellow:#ffe271;
 	.section_how{
 		margin-top: -327px;
 	}
+	.dd-video-header {
+		margin-top: -218px;
+	}
+	.dd-top-bottom{
+		margin-left: 0;
+	}
 
 }
 
 @media only screen and (min-width : 768px) {
+
+	.dd-video-txt{
+		.nsp2{
+			font-size: 48px;
+		}
+	}
+	.dd-video-header {
+		margin-top: -230px;
+	}
 
 	.dd-what-to-do_wrap_4{
 		margin-top: 2px;
@@ -446,8 +506,24 @@ $yellow:#ffe271;
 }
 
 @media only screen and (min-width : 992px) {
+	.dd-str{
+		position: absolute;
+		left:39%;
+		bottom:20px;
+	}
+	.dd-video-header {
+		margin-top: -306px;
+		margin-bottom: -75px;
+		background-size:cover;
+	}
+	.dd-top-bottom{
+		margin-left: 60px;
+		padding-top: 218px;
+	}
 	.dd-header{
-		background: url(../img/hed2.jpg) no-repeat top center;
+		background: url(../img/hed3.jpg) no-repeat top center;
+		background-size:cover;
+		// padding-bottom: 248px;
 	}
 	.dd-top-main{
 		span:nth-child(1){
@@ -480,6 +556,7 @@ $yellow:#ffe271;
 		margin-top: -28px;
 		background:url(../img/cam2.png) no-repeat top center;
 		padding-bottom: 90px;
+		background-size:cover;
 	}
 	.dd-content-cam_wt{
 		float: right;
@@ -487,6 +564,7 @@ $yellow:#ffe271;
 	.dd-what-to-do_wrap_3{
 		background:url(../img/pots.png) no-repeat top center;
 		padding-bottom: 167px;
+		background-size:cover;
 	}
 	.dd-container__green{
 		max-width: 1024px;
