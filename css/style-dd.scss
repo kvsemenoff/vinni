@@ -189,11 +189,8 @@ $yellow:#ffe271;
 	background-size:cover;
 	margin-top: -28px;
 	padding: 100px 0px;
-	// padding-top: 118px;
-	// padding-bottom: 15px;
 }
 .dd-content_wt__green{
-	outline: 1px solid blue;
 	max-width: 550px;
 	ul{
 		li{
@@ -276,7 +273,6 @@ $yellow:#ffe271;
 .dd-content-cam_wt{
 	max-width: 533px;
 	margin: 0 auto;
-	outline: 1px solid blue;
 	.dd-wsp1_wt{
 		color:$yellow;
 	}
@@ -335,6 +331,89 @@ $yellow:#ffe271;
 	}
 }
 
+/* Header
+===================================*/
+.dd-header{
+	background: url(../img/hed.jpg) no-repeat top center;
+	background-size:cover;
+	width: 100%;
+	padding-bottom: 50px;
+	padding-top: 10px;
+}
+.dd-header-container{
+	max-width: 958px;
+	margin: 0 auto;
+	outline: 2px solid blue;
+}
+.dd-top-box{
+	text-align: center;
+	margin-bottom: 15px;
+}
+.dd-top-box_1{
+	span{
+		color:#fff;
+		display: block;
+		font-family: "Rubik-Bold";
+		font-size: 24px;
+	}
+}
+.dd-top-box_2{
+	span{
+		color:#fff;
+		display: block;
+		font-family: "Rubik-Bold";
+		font-size: 24px;
+		font-family: "roundsblack";
+	}
+}
+.dd-top-main{
+	padding-top: 45px;
+	span{
+		display: block;
+		font-family: "roundsblack";
+	}
+	span:nth-child(1){
+		color:#FF740D;
+		// color:#fff;
+		font-size: 24px;
+		text-transform: uppercase;
+		margin-bottom: 40px;
+	}
+	span:nth-child(2){
+		color:#FFE271;
+		// font-size: 50px;
+		font-size: 40px;
+	}
+	span:nth-child(3){
+		color:#FF740D;
+		// font-size: 70px;
+		font-size: 24px;
+	}
+	span:nth-child(4){
+		color:#6EB400;
+		font-size: 36px;
+	}
+}
+.dd-top-bottom{
+	width: 204px;
+	text-align: center;
+	padding-top: 100px;
+	span{
+		font-family: "roundsblack";
+		font-size: 28px;
+		color:#FF740D;
+	}
+}
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (min-width : 320px) {
 }
@@ -347,6 +426,7 @@ $yellow:#ffe271;
 }
 
 @media only screen and (min-width : 768px) {
+
 	.dd-what-to-do_wrap_4{
 		margin-top: 2px;
 	}
@@ -366,6 +446,30 @@ $yellow:#ffe271;
 }
 
 @media only screen and (min-width : 992px) {
+	.dd-header{
+		background: url(../img/hed2.jpg) no-repeat top center;
+	}
+	.dd-top-main{
+		span:nth-child(1){
+			color:#fff;
+		}
+		span:nth-child(2){
+			font-size: 50px;
+		}
+		span:nth-child(3){
+			font-size: 69px;
+		}
+	}
+	.dd-top-box{
+		display: inline-block;
+	}
+	.dd-top-box_1{
+		padding-left: 48px;
+	}
+	.dd-top-box_2{
+		float: right;
+		padding-top: 10px;
+	}
 	.dd-what-to-do_wrap_5{
 		background:url(../img/lbg.png) no-repeat top center;
 	}
@@ -421,7 +525,6 @@ $yellow:#ffe271;
 		float: right;
 	}
 	.dd-girl{
-		outline: 2px solid red;
 		float: left;
 		margin-top: -155px;
 		display: block;
