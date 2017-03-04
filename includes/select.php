@@ -28,7 +28,7 @@
 					</div>
 					<div class="dfselbutton">
 						<span class="dfmest">Осталось 1 место</span>
-						<a href="#" class="dfbron">забронировать</a>
+						<a href="#js-form4" name="js-modal" class="dfbron">забронировать</a>
 					</div>
 				</div>
 			</div>
@@ -64,7 +64,7 @@
 					</div>
 					<div class="dfselbutton">
 						<span class="dfmest">Осталось 2 место</span>
-						<a href="#" class="dfbron">забронировать</a>
+						<a href="#js-form4" name="js-modal" class="dfbron">забронировать</a>
 					</div>
 				</div>
 			</div>
@@ -103,7 +103,7 @@
 					</div>
 					<div class="dfselbutton">
 						<span class="dfmest">Осталось 2 место</span>
-						<a href="#" class="dfbron">забронировать</a>
+						<a href="#js-form4" name="js-modal" class="dfbron">забронировать</a>
 					</div>
 				</div>
 			</div>
@@ -141,7 +141,7 @@
 					</div>
 					<div class="dfselbutton">
 						<span class="dfmest">Осталось 1 место</span>
-						<a href="#" class="dfbron">забронировать</a>
+						<a href="#js-form4" name="js-modal" class="dfbron">забронировать</a>
 					</div>
 				</div>
 			</div>
@@ -153,7 +153,7 @@
 				<div class="dftime">8.00 - 18.00 <span>Полный </span></div>
 				<div class="dftime">8.00 - 20.00 <span>Продленный</span></div>
 				<h4>Запишитесь на <span>бесплатный</span> пробный день!</h4>
-				<a href="#" class="dfbron">записаться</a>
+				<a href="#js-form5" name="js-modal" class="dfbron">записаться</a>
 			</div>
 		</div>
 	</div>

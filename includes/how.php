@@ -22,7 +22,7 @@
 				<span class="dd-nth4_h">Расскажем как следовать маршруту развития после садика</span>
 			</div>
 			<div class="dd-button_h">
-				<a class="button_h" href="#">Скачать пример</a>
+				<a class="button_h" href="#js-form1" name="js-modal">Скачать пример</a>
 			</div>
 		</div>
 	</div>

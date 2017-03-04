@@ -119,7 +119,7 @@
 						<span class="dd-wsp3_wt dd-wsp3_wt2">Получите авторское пособие по мягкой адаптации<br>
 							ребёнка в детском саду
 						</span><br>
-						<a class="dd-new-button" href="#">Получить</a>
+						<a class="dd-new-button" href="#js-form2" name="js-modal">Получить</a>
 					</div>
 				</div>
 				<div class="clearfix"></div>
