@@ -211,13 +211,13 @@ $(document).ready(function(){
 
             var owl2 = $("#dfslider");
             owl2.owlCarousel({
-                loop:true,
+                loop:false,
                 nav:true, 
                 autoplay:false,
                 smartSpeed:1000,
                 margin:0,
                 mouseDrag:false,
-                touchDrag: false,
+                touchDrag: false,                
         center:false,     //если нужны обрезаные края
         navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
         responsive:{

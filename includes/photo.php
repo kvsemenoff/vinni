@@ -15,9 +15,15 @@
 					<div class="dfphimg"><a href="img/photo7.jpg" rel="group"><img src="img/photo7.jpg" alt=""></a></div>
 					<div class="dfphimg"><a href="img/photo8.jpg" rel="group"><img src="img/photo8.jpg" alt=""></a></div>
 					<div class="dfphimg"><a href="img/photo9.jpg" rel="group"><img src="img/photo9.jpg" alt=""></a></div>
-					<div class="dfphimg"><a href="img/photo1.jpg" rel="group"><img src="img/photo1.jpg" alt=""></a></div>
-					<div class="dfphimg"><a href="img/photo2.jpg" rel="group"><img src="img/photo2.jpg" alt=""></a></div>
-					<div class="dfphimg"><a href="img/photo3.jpg" rel="group"><img src="img/photo3.jpg" alt=""></a></div>
+					<div class="dfphimg"><a href="img/photo10.jpg" rel="group"><img src="img/photo10.jpg" alt=""></a></div>
+					<div class="dfphimg"><a href="img/photo11.jpg" rel="group"><img src="img/photo11.jpg" alt=""></a></div>
+					<div class="dfphimg"><a href="img/photo12.jpg" rel="group"><img src="img/photo12.jpg" alt=""></a></div>
+					<div class="dfphimg"><a href="img/photo13.jpg" rel="group"><img src="img/photo13.jpg" alt=""></a></div>
+					<div class="dfphimg"><a href="img/photo14.jpg" rel="group"><img src="img/photo14.jpg" alt=""></a></div>
+					<div class="dfphimg"><a href="img/photo15.jpg" rel="group"><img src="img/photo15.jpg" alt=""></a></div>
+					<div class="dfphimg"><a href="img/photo16.jpg" rel="group"><img src="img/photo16.jpg" alt=""></a></div>
+					<div class="dfphimg"><a href="img/photo17.jpg" rel="group"><img src="img/photo17.jpg" alt=""></a></div>
+					<div class="dfphimg"><a href="img/photo18.jpg" rel="group"><img src="img/photo18.jpg" alt=""></a></div>
 				</div>
 				<a href="#" class="dfseemore">больше фотографий</a>
 				<a href="#" class="jshide">скрыть фотографии</a>
