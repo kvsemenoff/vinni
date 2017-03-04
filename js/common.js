@@ -2,14 +2,7 @@
 
 $(document).ready(function(){
 
-   var a = $('.parallax').offset().top;
-
-    $(window).scroll(function(){
-           var b = $(window).scrollTop() - (a-150);
-        $('.parallax').css({
-            "transform" : "translate(0%, "+ b/15 +"%)"
-        });
-    });
+  
 
 
    $('.js-mask').mask("+7 (999) 999 - 99 - 99?");
