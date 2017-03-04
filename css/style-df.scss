@@ -13,7 +13,7 @@ $yellow:#ffe271;
 	transform: skewY(-9deg);
 }
 .dfourbg{
-	background-image: url("../img/bgimgdf.png");
+	background-image: url("../img/bgimgdfgreen.png");
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: cover;
@@ -273,10 +273,17 @@ $yellow:#ffe271;
 	margin-bottom: 15px;
 	border-radius: 50px;
 	overflow: hidden;
+	// position: relative;
 	img{
+		border-radius: 50px;
 		display: inline-block;
 		width: 100%;
 		height: auto;
+		// position: absolute;
+		// top:50%;
+		// left: 50%;
+		// transform:translate(-50%, -50%);
+
 	}
 }
 .dfseemore, .jshide{
@@ -514,6 +521,9 @@ $yellow:#ffe271;
 	}
 	.dftextall{
 		min-height: 272px;		
+	}
+	.dfminheight{
+		min-height: 315px;
 	}
 	.dfkidblock{		
 		margin-bottom: 65px;	

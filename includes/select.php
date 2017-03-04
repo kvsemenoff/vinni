@@ -74,7 +74,7 @@
 					<img src="img/kid3.png" alt="">
 				</div>
 				<div class="dfkidrightbox">
-					<div class="dftextall">
+					<div class="dftextall dfminheight">
 						<div class="dfselecttext">
 							<h4>4 - 5 лет</h4>	
 							<span>До 12 деток в группе</span>	
@@ -113,7 +113,7 @@
 					<img src="img/kid4.png" alt="">
 				</div>
 				<div class="dfkidrightbox">
-					<div class="dftextall">
+					<div class="dftextall dfminheight">
 						<div class="dfselecttext">
 							<h4>5 - 7 лет</h4>	
 							<span>До 12 деток в группе</span>	
