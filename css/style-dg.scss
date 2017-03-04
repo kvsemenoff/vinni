@@ -274,7 +274,11 @@ $yellow:#ffe271;
     margin: auto;
     height: 194px;
     border: 3px solid #ff7818;
+    -webkit-border-radius: 50px; 
+    -moz-border-radius: 50px;
     border-radius: 50px;
+    -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%); 
+    -webkit-transform: rotate(0.000001deg); 
     overflow: hidden;
     img {
         max-width: 100%;
