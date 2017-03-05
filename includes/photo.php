@@ -6,24 +6,24 @@
 				<h4 class="dfcapph">- А фотки садика есть?</h4>
 				<h3 class="dfshoreeee">- Конечно!</h3>
 				<div class="dfblockphotos dfoverflow">
-					<div class="dfphimg"><a href="img/bigimg/bigimg_11.jpg" rel="group"><img src="img/photo1.jpg" alt=""></a></div>
-					<div class="dfphimg"><a href="img/bigimg/bigimg_1.jpg" rel="group"><img src="img/photo2.jpg" alt=""></a></div>
-					<div class="dfphimg"><a href="img/bigimg/bigimg_13.jpg" rel="group"><img src="img/photo3.jpg" alt=""></a></div>
-					<div class="dfphimg"><a href="img/bigimg/bigimg_7.jpg" rel="group"><img src="img/photo4.jpg" alt=""></a></div>
-					<div class="dfphimg"><a href="img/bigimg/bigimg_12.jpg" rel="group"><img src="img/photo5.jpg" alt=""></a></div>
-					<div class="dfphimg"><a href="img/bigimg/bigimg_6.jpg" rel="group"><img src="img/photo6.jpg" alt=""></a></div>
-					<div class="dfphimg"><a href="img/bigimg/bigimg_18.jpg" rel="group"><img src="img/photo7.jpg" alt=""></a></div>
-					<div class="dfphimg"><a href="img/bigimg/bigimg_4.jpg" rel="group"><img src="img/photo8.jpg" alt=""></a></div>
-					<div class="dfphimg"><a href="img/bigimg/bigimg_14.jpg" rel="group"><img src="img/photo9.jpg" alt=""></a></div>
-					<div class="dfphimg"><a href="img/bigimg/bigimg_3.jpg" rel="group"><img src="img/photo10.jpg" alt=""></a></div>
-					<div class="dfphimg"><a href="img/bigimg/bigimg_10.jpg" rel="group"><img src="img/photo11.jpg" alt=""></a></div>
-					<div class="dfphimg"><a href="img/bigimg/bigimg_16.jpg" rel="group"><img src="img/photo12.jpg" alt=""></a></div>
-					<div class="dfphimg"><a href="img/bigimg/bigimg_8.jpg" rel="group"><img src="img/photo13.jpg" alt=""></a></div>
-					<div class="dfphimg"><a href="img/bigimg/bigimg_9.jpg" rel="group"><img src="img/photo14.jpg" alt=""></a></div>
-					<div class="dfphimg"><a href="img/bigimg/bigimg_15.jpg" rel="group"><img src="img/photo15.jpg" alt=""></a></div>
-					<div class="dfphimg"><a href="img/bigimg/bigimg_2.jpg" rel="group"><img src="img/photo16.jpg" alt=""></a></div>
-					<div class="dfphimg"><a href="img/bigimg/bigimg_5.jpg" rel="group"><img src="img/photo17.jpg" alt=""></a></div>
-					<div class="dfphimg"><a href="img/bigimg/bigimg_17.jpg" rel="group"><img src="img/photo18.jpg" alt=""></a></div>
+					<div class="dfphimg"><a href="img/bigimg/bigimg_1.jpg" rel="group"><img src="img/photo_1.jpg" alt=""></a></div>
+					<div class="dfphimg"><a href="img/bigimg/bigimg_2.jpg" rel="group"><img src="img/photo_2.jpg" alt=""></a></div>
+					<div class="dfphimg"><a href="img/bigimg/bigimg_3.jpg" rel="group"><img src="img/photo_3.jpg" alt=""></a></div>
+					<div class="dfphimg"><a href="img/bigimg/bigimg_4.jpg" rel="group"><img src="img/photo_4.jpg" alt=""></a></div>
+					<div class="dfphimg"><a href="img/bigimg/bigimg_5.jpg" rel="group"><img src="img/photo_5.jpg" alt=""></a></div>
+					<div class="dfphimg"><a href="img/bigimg/bigimg_6.jpg" rel="group"><img src="img/photo_6.jpg" alt=""></a></div>
+					<div class="dfphimg"><a href="img/bigimg/bigimg_7.jpg" rel="group"><img src="img/photo_7.jpg" alt=""></a></div>
+					<div class="dfphimg"><a href="img/bigimg/bigimg_8.jpg" rel="group"><img src="img/photo_8.jpg" alt=""></a></div>
+					<div class="dfphimg"><a href="img/bigimg/bigimg_9.jpg" rel="group"><img src="img/photo_9.jpg" alt=""></a></div>
+					<div class="dfphimg"><a href="img/bigimg/bigimg_10.jpg" rel="group"><img src="img/photo_10.jpg" alt=""></a></div>
+					<div class="dfphimg"><a href="img/bigimg/bigimg_11.jpg" rel="group"><img src="img/photo_11.jpg" alt=""></a></div>
+					<div class="dfphimg"><a href="img/bigimg/bigimg_12.jpg" rel="group"><img src="img/photo_12.jpg" alt=""></a></div>
+					<div class="dfphimg"><a href="img/bigimg/bigimg_13.jpg" rel="group"><img src="img/photo_13.jpg" alt=""></a></div>
+					<div class="dfphimg"><a href="img/bigimg/bigimg_14.jpg" rel="group"><img src="img/photo_14.jpg" alt=""></a></div>
+					<div class="dfphimg"><a href="img/bigimg/bigimg_15.jpg" rel="group"><img src="img/photo_15.jpg" alt=""></a></div>
+					<div class="dfphimg"><a href="img/bigimg/bigimg_16.jpg" rel="group"><img src="img/photo_16.jpg" alt=""></a></div>
+					<div class="dfphimg"><a href="img/bigimg/bigimg_17.jpg" rel="group"><img src="img/photo_17.jpg" alt=""></a></div>
+					<div class="dfphimg"><a href="img/bigimg/bigimg_18.jpg" rel="group"><img src="img/photo_18.jpg" alt=""></a></div>
 				</div>
 				<a href="#" class="dfseemore">больше фотографий</a>
 				<a href="#" class="jshide">скрыть фотографии</a>
