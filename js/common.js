@@ -10,7 +10,7 @@ $(document).ready(function(){
    //          "transform" : "translate(0%, "+ b/15 +"%)"
    //      });
    //  });
-$('.section_for_me-view').parallax("50%", 0.1);
+// $('.section_for_me-view').parallax("100%", 0.1);
  
    $('.js-mask').mask("+7 (999) 999 - 99 - 99?");
    $('.js-date').mask("99 - 99 - 9999?");
