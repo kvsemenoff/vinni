@@ -98,7 +98,7 @@
 					Пример образовательного маршрута<br>
 					скоро придёт вам на почту<br><br>
 					Подпишитесь на нас в соцсетях<br><br>
-					<a href="#"><img src="img/db-vk.png" alt="img"></a>
+					<a href="https://vk.com/detskysad1"><img src="img/db-vk.png" alt="img"></a>
 				</p>
 			</form>
 		</div>
@@ -110,7 +110,7 @@
 					Пособие по адаптации малыша<br>
 					скоро придёт вам на почту<br><br>
 					Подпишитесь на нас в соцсетях<br><br>
-					<a href="#"><img src="img/db-vk.png" alt="img"></a>
+					<a href="https://vk.com/detskysad1"><img src="img/db-vk.png" alt="img"></a>
 				</p>
 			</form>
 		</div>
@@ -122,7 +122,7 @@
 					Совсем скоро мы перезвоним вам<br>
 					для уточнения времени встречи<br><br>
 					Подпишитесь на нас в соцсетях<br><br>
-					<a href="#"><img src="img/db-vk.png" alt="img"></a>
+					<a href="https://vk.com/detskysad1"><img src="img/db-vk.png" alt="img"></a>
 				</p>
 			</form>
 		</div>
@@ -134,7 +134,7 @@
 
 					Скоро вам придет подтверждение брони<br><br>
 					Подпишитесь на нас в соцсетях<br><br>
-					<a href="#"><img src="img/db-vk.png" alt="img"></a>
+					<a href="https://vk.com/detskysad1"><img src="img/db-vk.png" alt="img"></a>
 				</p>
 			</form>
 		</div>
@@ -146,7 +146,7 @@
 					Совсем скоро мы перезвоним вам<br>
 					для уточнения времени встречи<br><br>
 					Подпишитесь на нас в соцсетях<br><br>
-					<a href="#"><img src="img/db-vk.png" alt="img"></a>
+					<a href="https://vk.com/detskysad1"><img src="img/db-vk.png" alt="img"></a>
 				</p>
 			</form>
 		</div>

@@ -31,6 +31,7 @@
 	<script src="js/responsiveTabs.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/script-dg.js"></script>
+	<script src="js/jquery.scrolling-parallax.js"></script>
 	<script src="js/common.js"></script>
 
 	

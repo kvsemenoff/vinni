@@ -2,7 +2,14 @@
 
 $(document).ready(function(){
 
-  
+   // var a = $('.parallax').offset().top;
+
+   //  $(window).scroll(function(){
+   //         var b = $(window).scrollTop() - (a-150);
+   //      $('.parallax').css({
+   //          "transform" : "translate(0%, "+ b/15 +"%)"
+   //      });
+   //  });
 
 
    $('.js-mask').mask("+7 (999) 999 - 99 - 99?");
@@ -204,13 +211,13 @@ $(document).ready(function(){
 
             var owl2 = $("#dfslider");
             owl2.owlCarousel({
-                loop:false,
+                loop:true,
                 nav:true, 
                 autoplay:false,
                 smartSpeed:1000,
                 margin:0,
                 mouseDrag:false,
-                touchDrag: false,                
+                touchDrag: false,
         center:false,     //если нужны обрезаные края
         navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
         responsive:{
