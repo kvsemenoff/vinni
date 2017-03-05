@@ -91,7 +91,7 @@ $yellow:#ffe271;
 	// box-shadow: 1.1px 1.6px 9.6px 0.4px #5dc5ff;
 	// box-shadow: inset 1.1px 1.6px 9.6px 0.4px #5dc5ff;
 	text-shadow: 1.1px 1.6px 8px rgba(47, 180, 255, 0.79);
-	line-height: 49px;
+	// line-height: 49px;
 	text-transform: uppercase;
 	font-family: "Rubik-Regular";
 	font-size: 20px;
@@ -593,7 +593,8 @@ $yellow:#ffe271;
 		}
 	}
 	.section_how{
-		background:url(../img/sg.jpg) no-repeat top center;
+		// background:url(../img/sg.jpg) no-repeat top center;
+		background:url(../img/g2.jpg) no-repeat top center;
 		background-size:cover;
 	}
 }
