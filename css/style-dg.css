@@ -295,7 +295,7 @@
 
 /* line 271, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
 .about-item {
-  max-width: 264px;
+  max-width: 250px;
   width: 100%;
   margin: auto;
   height: 194px;
@@ -353,6 +353,9 @@
     margin-bottom: -60px; }
   /* line 332, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
   .footer-container {
-    width: 960px !important; } }
+    width: 960px !important; }
+  /* line 335, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+  .about-item {
+    max-width: 264px; } }
 
 /*# sourceMappingURL=style-dg.css.map */

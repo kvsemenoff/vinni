@@ -41,4 +41,7 @@ $(document).ready(function(){
     placemark.name = "Винни-Пух";
     placemark.description = "Детский сад Винни-Пух";
     map.addOverlay(placemark);
+    map.addControl(new YMaps.ToolBar());
+    map.addControl(new YMaps.Zoom());
+    map.addControl(new YMaps.ScaleLine());
 })
