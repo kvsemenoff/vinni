@@ -128,17 +128,20 @@ h2{
 }
 
 .section_for_me-view{
-    background: url(../img/db-for2.png) no-repeat center bottom 10% fixed;
+    background: url(../img/london.jpg) no-repeat center bottom 40% fixed;
     // overflow: hidden;
     height: 900px;
     background-size: cover;
-    // padding: 252px 0;
+    padding: 150px 0 150px 0;
     text-align: center;
     font-family: "roundsblack";
-    margin-top: -90px;
+    margin-top: 0px;
+    
 }
 
+
 .db-for-me-block{
+	
 	position: relative;
 	.db-one-p{
 		font-size: 28px;
