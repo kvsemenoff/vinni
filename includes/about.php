@@ -13,10 +13,10 @@
 		        <p class="about-watch">Или посмотрите видеоотзывы от реальных людей</p>
 		    </div>
 		    <div class="about-carousel" id="dgslider">
-		        <div class="about-item"><iframe width="264" height="194" src="https://www.youtube.com/embed/cTYen7a3PQM" frameborder="0" allowfullscreen></iframe></div>
-		        <div class="about-item"><iframe width="264" height="194" src="https://www.youtube.com/embed/L5bnVQ0YgEQ" frameborder="0" allowfullscreen></iframe></div>
-		        <div class="about-item"><iframe width="264" height="194" src="https://www.youtube.com/embed/hMI7PgZ-FBY" frameborder="0" allowfullscreen></iframe></div>
-		        <div class="about-item"><iframe width="264" height="194" src="https://www.youtube.com/embed/y4bQ7Yn64UQ" frameborder="0" allowfullscreen></iframe></div>
+		        <div style="border: 3px solid #ff7818;border-radius: 50px;" class="about-item"><iframe width="264" height="194" src="https://www.youtube.com/embed/cTYen7a3PQM" frameborder="0" allowfullscreen></iframe></div>
+		        <div style="border: 3px solid #ff7818;border-radius: 50px;" class="about-item"><iframe width="264" height="194" src="https://www.youtube.com/embed/L5bnVQ0YgEQ" frameborder="0" allowfullscreen></iframe></div>
+		        <div style="border: 3px solid #ff7818;border-radius: 50px;" class="about-item"><iframe width="264" height="194" src="https://www.youtube.com/embed/hMI7PgZ-FBY" frameborder="0" allowfullscreen></iframe></div>
+		        <div style="border: 3px solid #ff7818;border-radius: 50px;" class="about-item"><iframe width="264" height="194" src="https://www.youtube.com/embed/y4bQ7Yn64UQ" frameborder="0" allowfullscreen></iframe></div>
 		    </div>
 		</div>
 	</div>
