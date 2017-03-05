@@ -1,10 +1,9 @@
 <section class="section section_padding section_for_me-view">
-	<div class=" container">
-		<div class="row">
-			<div class="col-md-12">
-		
+	<div class="dbskewY">
+		<div class=" container dbskew2">
+			<div class="row">
+				<div class="col-md-12">			
 					<div class="db-for-me-block">
-
 						<p class="db-one-p">
 							Для меня важно,<br>
 							<span class="db-one-span">кто будет работать </span><br>
@@ -15,6 +14,7 @@
 							будущий педагог моего малыша? 
 						</p>
 					</div>
+				</div>
 			</div>
 		</div>
 	</div>

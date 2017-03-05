@@ -127,21 +127,78 @@ h2{
 	display: none;
 }
 
-.section_for_me-view{
-    background: url(../img/london.jpg) no-repeat center bottom 40% fixed;
-    // overflow: hidden;
-    height: 900px;
-    background-size: cover;
+.section_for_me-view{    
+    height: 860px;   
     padding: 150px 0 150px 0;
     text-align: center;
-    font-family: "roundsblack";
-    margin-top: 0px;
-    
+    font-family: "roundsblack"; 
+    -o-transform:skewY(-3deg);
+	-webkit-transform:skewY(-3deg);
+	-moz-transform:skewY(-3deg);  
+    transform:skewY(-3deg);
+    overflow: hidden;
+    position: relative;
+    margin: 10px 0 100px 0;    
+}
+
+.dbskewY{
+	-o-transform:skewY(-3deg);
+	-webkit-transform:skewY(-3deg);
+	-moz-transform:skewY(-3deg);
+	transform:skewY(-3deg);
+}
+.dbskew2{
+	-o-transform:skewY(6deg);
+	-webkit-transform:skewY(6deg);
+	-moz-transform:skewY(6deg);
+	transform:skewY(6deg);
+}
+.dbskewY:after{
+	content: "";
+	position: absolute;
+	top: -150px;
+	left: 0;
+	width: 100%;
+	height: 20px;
+	-webkit-box-shadow: inset 0px 11px 17px -6px rgba(0,0,0,0.7);
+	-moz-box-shadow: inset 0px 11px 17px -6px rgba(0,0,0,0.7);
+	box-shadow: inset 0px 11px 17px -6px rgba(0,0,0,0.7);
+	-o-transform:skewY(3deg);
+	-webkit-transform:skewY(3deg);
+	-moz-transform:skewY(3deg);
+	transform:skewY(3deg);
+}
+.section_for_me-view:before{	
+	content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: -1;
+    background: url(../img/db-for3.png) no-repeat center bottom 40% fixed;
+    background-size: cover;
+    -o-transform:skewY(4deg);
+	-webkit-transform:skewY(4deg);
+	-moz-transform:skewY(4deg);
+    transform:skewY(4deg);
+}
+.section_for_me-view:after{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 20px;
+	-webkit-box-shadow: inset 0px -8px 17px -6px rgba(0,0,0,0.7);
+	-moz-box-shadow: inset 0px -8px 17px -6px rgba(0,0,0,0.7);
+	box-shadow: inset 0px -8px 17px -6px rgba(0,0,0,0.7);
 }
 
 
-.db-for-me-block{
-	
+
+
+.db-for-me-block{	
 	position: relative;
 	.db-one-p{
 		font-size: 28px;
