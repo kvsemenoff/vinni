@@ -128,7 +128,9 @@ h2{
 }
 
 .section_for_me-view{
-    background: url(../img/db-for.png) no-repeat;
+    background: url(../img/db-for2.png) no-repeat center bottom 10% fixed;
+    // overflow: hidden;
+    height: 200px;
     background-size: cover;
     padding: 252px 0;
     text-align: center;

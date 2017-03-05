@@ -14,7 +14,7 @@
 
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="stylesheet" href="css/style.css">
-    <script src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
+	<script src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
 </head>
 <body>
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
@@ -25,13 +25,15 @@
 	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 
 	<script>
-    	new WOW().init();
-    </script>
+		new WOW().init();
+	</script>
 
 	<script src="js/responsiveTabs.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/script-dg.js"></script>
 	<script src="js/jquery.scrolling-parallax.js"></script>
 	<script src="js/common.js"></script>
-
+	<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+	<script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
+	<!-- <script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script> -->
 	
