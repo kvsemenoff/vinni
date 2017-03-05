@@ -14,7 +14,7 @@
 
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="stylesheet" href="css/style.css">
-
+    <script src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
 </head>
 <body>
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>

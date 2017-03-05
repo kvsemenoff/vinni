@@ -43,7 +43,8 @@
 		<div class="dd-header-container">
 			
 			<div class="item-play">
-				<a href="#"><img src="img/play.png" alt=""></a>
+				<iframe width="100%" height="352" src="https://www.youtube.com/embed/44FlBcLa2Jk" frameborder="0" allowfullscreen></iframe>
+				<!-- <a href="#"><img src="img/play.png" alt=""></a> -->
 			</div>
 			<div class="dd-video-txt">
 				<span>Своему ребёнку родители хотят 

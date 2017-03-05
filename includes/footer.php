@@ -1,5 +1,5 @@
 <section class="section section_padding footer">
-	<div class=" container">
+	<div class="container footer-container">
 		<div class="row">
 			<div class="col-md-12">
 				<h2 class="footer-title">приходите знакомиться!</h2>
@@ -22,7 +22,7 @@
 							</div>
 							<div class="footer-socials__right">
 								<span class="footer-socials-text">Мы в соцсетях</span>
-								<a href="#"  class="footer-socials-link"><img src="img/footer-vk.png" alt="" class="footer-socials-vk"></a>
+								<a href="https://vk.com/detskysad1"  class="footer-socials-link"><img src="img/footer-vk.png" alt="" class="footer-socials-vk"></a>
 							</div>
 						</div>
 					</div>

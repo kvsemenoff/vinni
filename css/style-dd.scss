@@ -82,11 +82,14 @@ $yellow:#ffe271;
 }
 .button_h{
 	display: inline-block;
-	width: 240px;
-	height: 56px;
-	border: 3px solid #70d1ff;
-	border-radius: 20px;
-	box-shadow: 1.1px 1.6px 9.6px 0.4px #5dc5ff;
+	width: 260px;
+	height: 87px;
+	line-height: 87px;
+	// border: 3px solid #70d1ff;
+	background:url(../img/kn.png) no-repeat center;
+	// border-radius: 20px;
+	// box-shadow: 1.1px 1.6px 9.6px 0.4px #5dc5ff;
+	// box-shadow: inset 1.1px 1.6px 9.6px 0.4px #5dc5ff;
 	text-shadow: 1.1px 1.6px 8px rgba(47, 180, 255, 0.79);
 	line-height: 49px;
 	text-transform: uppercase;
@@ -412,8 +415,10 @@ $yellow:#ffe271;
 	border-radius: 40px;
 	max-width: 543px;
 	margin: 0 auto;
-	padding: 100px 0px;
+	// padding: 100px 0px;
 	margin-top: 57px;
+	overflow: hidden;
+	height: 352px;
 }
 .dd-video-header{
 	background: url(../img/fon.png) no-repeat top center;
@@ -509,7 +514,7 @@ $yellow:#ffe271;
 	.dd-str{
 		position: absolute;
 		left:39%;
-		bottom:20px;
+		bottom:58px;
 	}
 	.dd-video-header {
 		margin-top: -306px;
@@ -519,6 +524,7 @@ $yellow:#ffe271;
 	.dd-top-bottom{
 		margin-left: 60px;
 		padding-top: 218px;
+		padding-bottom: 76px;
 	}
 	.dd-header{
 		background: url(../img/hed3.jpg) no-repeat top center;

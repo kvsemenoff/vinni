@@ -141,7 +141,7 @@
 
 /* line 133, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
 .find {
-  background: url(/img/find_bg.png) 0 0 no-repeat;
+  background: url(/img/find_bg.png) 70% 0 no-repeat;
   background-color: transparent;
   padding-top: 100px;
   padding-bottom: 80px;
@@ -178,42 +178,44 @@
 .find-metro__title {
   color: #ff7818;
   font-size: 20px;
-  font-family: "Rubik-Regular"; }
+  line-height: 20px;
+  font-family: "Rubik-Bold"; }
 
-/* line 168, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+/* line 169, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
 .find-metro__text {
-  font-family: "Rubik-Regular";
+  font-family: "Rubik-Bold";
   color: #000;
-  font-size: 16px; }
+  font-size: 16px;
+  line-height: 16px; }
 
-/* line 173, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+/* line 175, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
 .find-addr {
-  max-width: 300px;
+  max-width: 330px;
   margin: auto;
   text-align: center; }
 
-/* line 178, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+/* line 180, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
 .find-addr__text {
   color: #ff7818;
-  font-family: "Rubik-Regular";
+  font-family: "Rubik-Bold";
   font-size: 20px;
   font-weight: 400;
-  line-height: 26px; }
+  line-height: 20px; }
 
-/* line 186, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+/* line 188, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
 .about {
   background: url(/img/about_bg.png) 0 0 no-repeat;
   background-size: cover;
   padding-bottom: 50px;
   padding-top: 235px; }
 
-/* line 193, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+/* line 195, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
 .about-wrap {
   max-width: 830px;
   text-align: center;
   margin: auto; }
 
-/* line 199, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+/* line 201, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
 .about-question {
   color: #ff7818;
   font-family: "roundsblack";
@@ -223,7 +225,7 @@
   text-transform: uppercase;
   margin-bottom: 25px; }
 
-/* line 208, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+/* line 210, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
 .about-answer {
   color: #378100;
   font-family: "roundsblack";
@@ -232,7 +234,7 @@
   line-height: 34px;
   margin-bottom: 40px; }
 
-/* line 216, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+/* line 218, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
 .about-note {
   color: #ff7818;
   font-family: "roundsblack";
@@ -241,7 +243,7 @@
   line-height: 51px;
   margin-bottom: 10px; }
 
-/* line 224, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+/* line 226, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
 .about-concurents {
   color: #ff7818;
   font-family: "Rubik-Regular";
@@ -250,7 +252,7 @@
   line-height: 26px;
   margin-bottom: 45px; }
 
-/* line 232, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+/* line 234, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
 .about-saytruth {
   color: #378100;
   font-family: "Rubik-Regular";
@@ -258,7 +260,7 @@
   font-weight: 700;
   line-height: 42px; }
 
-/* line 239, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+/* line 241, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
 .about-feedback {
   color: black;
   font-family: "Rubik-Regular";
@@ -266,15 +268,15 @@
   line-height: 28px;
   font-weight: 400;
   margin-bottom: 25px; }
-  /* line 245, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+  /* line 247, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
   .about-feedback span {
     font-weight: 700;
     text-transform: uppercase; }
-    /* line 248, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+    /* line 250, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
     .about-feedback span:nth-child(2) {
       text-transform: none; }
 
-/* line 254, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+/* line 256, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
 .about-truth {
   color: #ff7818;
   font-family: "Rubik-Regular";
@@ -283,7 +285,7 @@
   line-height: 24px;
   margin-bottom: 40px; }
 
-/* line 262, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+/* line 264, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
 .about-watch {
   color: #6eb400;
   font-family: "roundsblack";
@@ -291,18 +293,25 @@
   font-weight: 400;
   line-height: 33px; }
 
-/* line 269, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+/* line 271, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
 .about-item {
   max-width: 264px;
   width: 100%;
   margin: auto;
-  height: 194px; }
-  /* line 274, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+  height: 194px;
+  border: 3px solid #ff7818;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+  -webkit-transform: rotate(0deg);
+  overflow: hidden; }
+  /* line 283, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
   .about-item img {
     max-width: 100%;
     max-height: 100%; }
 
-/* line 279, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+/* line 288, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
 #dgslider {
   max-width: 850px;
   width: 100%;
@@ -310,37 +319,40 @@
   margin-top: 50px; }
 
 @media only screen and (min-width: 480px) {
-  /* line 289, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+  /* line 298, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
   .footer {
     background-image: url(/img/footer_bg.jpg);
     background-position: 50% 0; }
-  /* line 293, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+  /* line 302, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
   .footer-socials__left {
     float: left;
     margin-bottom: 0; }
-  /* line 297, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+  /* line 306, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
   .footer-socials__right {
     float: right;
     padding-top: 15px; } }
 
 @media only screen and (min-width: 768px) {
-  /* line 304, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+  /* line 313, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
   .footer-socials__left {
     text-align: left; } }
 
 @media only screen and (min-width: 992px) {
-  /* line 310, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+  /* line 318, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
   .footer-title {
     font-size: 42px; }
-  /* line 313, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+  /* line 321, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
   .footer-call-title {
     line-height: 45px; }
-  /* line 317, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+  /* line 325, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
   .find-left {
     margin-bottom: 0px;
     text-align: left; }
-  /* line 321, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+  /* line 329, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
   .find {
-    margin-bottom: -80px; } }
+    margin-bottom: -60px; }
+  /* line 332, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+  .footer-container {
+    width: 960px !important; } }
 
 /*# sourceMappingURL=style-dg.css.map */

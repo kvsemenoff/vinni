@@ -131,7 +131,7 @@ $yellow:#ffe271;
 }
 
 .find {
-    background: url(/img/find_bg.png) 0 0 no-repeat;
+    background: url(/img/find_bg.png) 70% 0 no-repeat;
     background-color: transparent;
     padding-top: 100px;
     padding-bottom: 80px;
@@ -163,24 +163,26 @@ $yellow:#ffe271;
 .find-metro__title {
     color: #ff7818;
     font-size: 20px;
-    font-family: "Rubik-Regular";
+    line-height: 20px;
+    font-family: "Rubik-Bold";
 }
 .find-metro__text {
-    font-family: "Rubik-Regular";
+    font-family: "Rubik-Bold";
     color: #000;
     font-size: 16px;
+    line-height: 16px;
 }
 .find-addr {
-    max-width: 300px;
+    max-width: 330px;
     margin: auto;
     text-align: center;
 }
 .find-addr__text {
     color: #ff7818;
-    font-family: "Rubik-Regular";
+    font-family: "Rubik-Bold";
     font-size: 20px;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 20px;
 }
 
 .about {
@@ -271,6 +273,13 @@ $yellow:#ffe271;
     width: 100%;
     margin: auto;
     height: 194px;
+    border: 3px solid #ff7818;
+    -webkit-border-radius: 50px; 
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%); 
+    -webkit-transform: rotate(0.000001deg); 
+    overflow: hidden;
     img {
         max-width: 100%;
         max-height: 100%;
@@ -305,7 +314,6 @@ $yellow:#ffe271;
         text-align: left;
     }
 }
-
 @media only screen and (min-width : 992px) {
     .footer-title {
         font-size: 42px;
@@ -319,7 +327,10 @@ $yellow:#ffe271;
         text-align: left;
     }
     .find {
-        margin-bottom: -80px;
+        margin-bottom: -60px;
+    }
+    .footer-container {
+        width: 960px !important;
     }
 }
 
