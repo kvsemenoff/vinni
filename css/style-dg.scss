@@ -269,7 +269,7 @@ $yellow:#ffe271;
     line-height: 33px;
 }
 .about-item {
-    max-width: 264px;
+    max-width: 250px;
     width: 100%;
     margin: auto;
     height: 194px;
@@ -331,6 +331,9 @@ $yellow:#ffe271;
     }
     .footer-container {
         width: 960px !important;
+    }
+    .about-item {
+        max-width: 264px;
     }
 }
 
