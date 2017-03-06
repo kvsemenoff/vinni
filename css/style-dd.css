@@ -87,25 +87,25 @@
   display: block;
   font-family: "roundsblack"; }
 .dd-bottom-content_h span:nth-child(1) {
-  font-size: 26px;
+  font-size: 22px;
   color: #022e61; }
 .dd-bottom-content_h span:nth-child(2) {
   color: #fff;
-  font-size: 28px; }
+  font-size: 22px; }
 .dd-bottom-content_h span:nth-child(3) {
   color: #fff;
-  font-size: 36px; }
+  font-size: 28px; }
 .dd-bottom-content_h span:nth-child(4) {
   color: #022e61;
-  font-size: 42px;
+  font-size: 32px;
   margin-top: 20px; }
 .dd-bottom-content_h span:nth-child(5) {
   margin-top: 62px;
   color: #ffe271;
-  font-size: 42px; }
+  font-size: 32px; }
 .dd-bottom-content_h span:nth-child(6) {
   color: #fff;
-  font-size: 29px; }
+  font-size: 22px; }
 
 /* ╨з╤В╨╛ ╨┤╨╡╨╗╨░╤В╤М
 =================================*/
@@ -121,7 +121,7 @@
   .dd-content_wt .dd-wsp1_wt {
     color: #70d1ff;
     font-family: "roundsblack";
-    font-size: 34px;
+    font-size: 22px;
     margin-bottom: 16px; }
   .dd-content_wt .dd-wsp2_wt {
     color: #70d1ff;
@@ -191,7 +191,7 @@
       font-family: "Rubik-Bold"; }
   .dd-content_wt__pots .dd-wsp1_wt {
     color: #022e61;
-    font-size: 31px; }
+    font-size: 22px; }
   .dd-content_wt__pots .dd-wsp2_wt {
     margin-bottom: 45px; }
     .dd-content_wt__pots .dd-wsp2_wt span {
@@ -398,8 +398,38 @@
   .dd-top-bottom {
     margin-left: 0; } }
 @media only screen and (min-width: 768px) {
+  .dd-content_wt .dd-wsp1_wt {
+    font-size: 34px; }
+
+  .dd-content_wt__pots .dd-wsp1_wt {
+    font-size: 31px; }
+
   .dd-video-txt .nsp2 {
     font-size: 48px; }
+
+  .dd-bottom-content_h span {
+    display: block;
+    font-family: "roundsblack"; }
+  .dd-bottom-content_h span:nth-child(1) {
+    font-size: 26px;
+    color: #022e61; }
+  .dd-bottom-content_h span:nth-child(2) {
+    color: #fff;
+    font-size: 28px; }
+  .dd-bottom-content_h span:nth-child(3) {
+    color: #fff;
+    font-size: 36px; }
+  .dd-bottom-content_h span:nth-child(4) {
+    color: #022e61;
+    font-size: 42px;
+    margin-top: 20px; }
+  .dd-bottom-content_h span:nth-child(5) {
+    margin-top: 62px;
+    color: #ffe271;
+    font-size: 42px; }
+  .dd-bottom-content_h span:nth-child(6) {
+    color: #fff;
+    font-size: 29px; }
 
   .dd-video-header {
     margin-top: -230px; }
