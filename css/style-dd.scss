@@ -325,13 +325,14 @@ $yellow:#ffe271;
 .dfskewwhat:after{
 	content: "";
     position: absolute;
-    top: -150px;
+    top: -40px;
     left: 0;
     width: 100%;
-    height: 150px;
+    height: 50px;
     transform: skewY(3deg);
-    background: url(../img/lbg.png) no-repeat top 112px center;	
+    background: url(../img/lbgtop.png) no-repeat top center;	
     background-size: cover;
+    
 }
 .dfskewwhat2{
 	-o-transform: skewY(3.3deg);
