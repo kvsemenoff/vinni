@@ -3,6 +3,10 @@
 
 /*=============our=========*/
 .dfskew {
+  -o-transform: skewY(-9deg);
+  -webkit-transform: skewY(-9deg);
+  -moz-transform: skewY(-9deg);
+  -ms-transform: skewY(-9deg);
   transform: skewY(-9deg); }
 
 .dfourbg {
@@ -10,6 +14,10 @@
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
+  -o-transform: skewY(9deg);
+  -webkit-transform: skewY(9deg);
+  -moz-transform: skewY(9deg);
+  -ms-transform: skewY(9deg);
   transform: skewY(9deg); }
 
 .dfour {
@@ -84,7 +92,23 @@
 
 /*============personal=========*/
 .dfwhitebg {
-  margin-top: -190px; }
+  margin-top: -190px;
+  z-index: 999;
+  position: relative;
+  background-color: #fff;
+  -o-transform: skewY(-3deg);
+  -webkit-transform: skewY(-3deg);
+  -moz-transform: skewY(-3deg);
+  -ms-transform: skewY(-3deg);
+  transform: skewY(-3deg);
+  padding-top: 45px; }
+
+.dfskewpresonal {
+  -o-transform: skewY(3.3deg);
+  -webkit-transform: skewY(3.3deg);
+  -moz-transform: skewY(3.3deg);
+  -ms-transform: skewY(3.3deg);
+  transform: skewY(3.3deg); }
 
 .dfcenter {
   text-align: center; }
@@ -185,15 +209,16 @@
 .df-left, .df-right {
   position: absolute;
   top: 37%;
-  left: 0px;
   width: 27px;
   height: 44px;
   background-image: url("../img/left.png");
   background-repeat: no-repeat;
   background-position: center; }
 
+.df-left {
+  left: 0; }
+
 .df-right {
-  left: unset;
   right: 0px;
   background-image: url("../img/right.png"); }
 
@@ -395,7 +420,7 @@
     margin: -130px 0 -350px 0; }
 
   .dfwhitebg {
-    margin-top: -100px; } }
+    margin-top: -133px; } }
 @media only screen and (min-width: 768px) {
   .dfpersonalchar {
     padding-left: 0px; } }
@@ -405,7 +430,7 @@
     margin: 0 20px 0 79px; }
 
   .dfwhitebg {
-    margin-top: -40px; }
+    margin-top: -133px; }
 
   .dfpercomesoon {
     margin: 38px 0px 19px 22px; }
@@ -502,11 +527,10 @@
     margin-bottom: 47px;
     padding-left: 14px; }
 
-  .df-left, .df-right {
+  .df-left {
     left: -45px; }
 
   .df-right {
-    left: unset;
     right: -45px; }
 
   .jshide {

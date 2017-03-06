@@ -1,5 +1,5 @@
 <section class="section section_padding dfwhitebg">
-<div class=" container">
+<div class=" container dfskewpresonal">
 	<div class="row">
 		<div class="col-md-12 dfcenter">
 			<h3 class="dfcappersonal">К подбору персонала мы подходим <br><span>с особым трепетом!</span></h3>
