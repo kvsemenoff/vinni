@@ -1,37 +1,45 @@
+/* line 6, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
 h2 {
   color: #022e61; }
 
+/* line 10, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
 .db-primer {
   color: #ff7818;
   border: 3px solid #ff7818; }
 
+/* line 14, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
 .db-primer:hover {
   background: #ff7818;
   color: white; }
 
+/* line 19, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
 .db-form {
   max-width: 660px;
   margin: 0 auto;
   text-align: center;
   padding: 160px 0;
   position: relative; }
+  /* line 26, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .db-form .db-crest {
     position: absolute;
     right: 30px;
     top: 85px;
     cursor: pointer; }
+  /* line 32, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .db-form p {
     margin-top: -20px;
     color: white;
     font-size: 20px;
     font-family: "Rubik-Bold";
     padding-bottom: 27px; }
+  /* line 39, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .db-form input[type="submit"] {
     background: none;
     color: white;
     border: 3px solid white;
     font-size: 20px;
     margin-top: 15px; }
+  /* line 46, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .db-form input[type="text"] {
     border: 3px solid white;
     font-size: 20px;
@@ -39,62 +47,87 @@ h2 {
     padding: 6px 3px;
     text-align: center;
     margin-top: 1px; }
+  /* line 55, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .db-form input[type="text"]::-webkit-input-placeholder {
     color: #70d1ff; }
+  /* line 56, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .db-form input[type="text"]::-moz-placeholder {
     color: #70d1ff; }
 
+/* line 58, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
 .db-form-1 {
   background: url("../img/form1.png") no-repeat top center; }
+  /* line 60, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .db-form-1 input[type="submit"] {
     padding: 13px 71px !important; }
+  /* line 63, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .db-form-1 input[type="text"] {
     color: #70d1ff; }
 
+/* line 68, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
 .db-form-2 {
   background: url("../img/form1.png") no-repeat top center; }
+  /* line 70, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .db-form-2 input[type="submit"] {
     padding: 13px 64px !important; }
+  /* line 73, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .db-form-2 input[type="text"] {
     color: #70d1ff; }
 
+/* line 77, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
 .db-form-3 {
   background: url("../img/form1.png") no-repeat top center; }
+  /* line 79, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .db-form-3 input[type="submit"] {
     padding: 13px 52px !important; }
+  /* line 82, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .db-form-3 input[type="text"] {
     color: #70d1ff; }
 
+/* line 86, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
 .db-form-4 {
   background: url("../img/form2.png") no-repeat top center; }
+  /* line 88, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .db-form-4 input[type="submit"] {
     padding: 13px 33px !important; }
+  /* line 91, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .db-form-4 input[type="text"] {
     color: #f9770c; }
+  /* line 94, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .db-form-4 input[type="text"]::-webkit-input-placeholder {
     color: #f9770c !important; }
+  /* line 95, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .db-form-4 input[type="text"]::-moz-placeholder {
     color: #f9770c !important; }
 
+/* line 97, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
 .db-form-5 {
   background: url("../img/form2.png") no-repeat top center; }
+  /* line 99, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .db-form-5 input[type="submit"] {
     padding: 13px 52px !important; }
+  /* line 102, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .db-form-5 input[type="text"] {
     color: #f9770c; }
+  /* line 105, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .db-form-5 input[type="text"]::-webkit-input-placeholder {
     color: #f9770c !important; }
+  /* line 106, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .db-form-5 input[type="text"]::-moz-placeholder {
     color: #f9770c !important; }
 
+/* line 110, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
 .db-form-6 span {
   color: #ffe271;
   font-family: "Rubik-Bold" !important; }
+
+/* line 114, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
 .db-form-6 p {
   font-size: 20px !important;
   font-family: "Rubik-Regular" !important;
   line-height: 28px; }
 
+/* line 121, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
 #js-form1, #js-form2, #js-form3, #js-form4, #js-form5, #js-form6, #js-form7, #js-form8, #js-form9, #js-form10, #js-form11 {
   z-index: 1000;
   position: fixed;
@@ -104,6 +137,7 @@ h2 {
   display: none; }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
+  /* line 130, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .section_for_me-view {
     height: 700px;
     padding: 150px 0 150px 0;
@@ -113,13 +147,13 @@ h2 {
     overflow: hidden;
     position: relative;
     margin: 10px 0 100px 0; }
-
+  /* line 141, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .dbskewY {
     transform: skewY(-3deg); }
-
+  /* line 144, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .dbskew2 {
     transform: skewY(6deg); }
-
+  /* line 147, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .dbskewY:after {
     content: "";
     position: absolute;
@@ -131,7 +165,7 @@ h2 {
     -moz-box-shadow: inset 0px 11px 17px -6px rgba(0, 0, 0, 0.7);
     box-shadow: inset 0px 11px 17px -6px rgba(0, 0, 0, 0.7);
     transform: skewY(3deg); }
-
+  /* line 159, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .section_for_me-view:before {
     content: "";
     position: absolute;
@@ -143,7 +177,7 @@ h2 {
     background: url(../img/db-for3.png) no-repeat center bottom 40% fixed;
     background-size: cover;
     transform: skewY(4deg); }
-
+  /* line 171, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .section_for_me-view:after {
     content: "";
     position: absolute;
@@ -154,17 +188,19 @@ h2 {
     -webkit-box-shadow: inset 0px -8px 17px -6px rgba(0, 0, 0, 0.7);
     -moz-box-shadow: inset 0px -8px 17px -6px rgba(0, 0, 0, 0.7);
     box-shadow: inset 0px -8px 17px -6px rgba(0, 0, 0, 0.7); } }
+
 @-moz-document url-prefix() {
+  /* line 184, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .dbskewY:before {
     bottom: 33px; }
-
+  /* line 187, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .dbskewY:after {
     top: 65px; }
-
+  /* line 190, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .ddall {
     position: relative;
     margin-top: 0; }
-
+  /* line 194, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .section_for_me-view {
     display: block;
     height: 800px;
@@ -176,7 +212,7 @@ h2 {
     position: relative;
     margin: 0px 0 100px 0;
     z-index: 99; }
-
+  /* line 207, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .section_for_me-view:before {
     content: "";
     display: block;
@@ -192,7 +228,7 @@ h2 {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover; }
-
+  /* line 223, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .dftreyg {
     position: absolute;
     top: 0;
@@ -201,7 +237,7 @@ h2 {
     height: 0;
     border-top: 100px solid white;
     border-right: 2000px solid transparent; }
-
+  /* line 232, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .dftreyg2 {
     position: absolute;
     bottom: 0;
@@ -210,16 +246,16 @@ h2 {
     height: 0;
     border-bottom: 103px solid white;
     border-left: 2000px solid transparent; }
-
+  /* line 241, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .section_for_me-view:after {
     transform: none; }
-
+  /* line 246, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .dbskewY {
     transform: none; }
-
+  /* line 249, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .dbskew2 {
     transform: none; }
-
+  /* line 252, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .dbskewY:after {
     content: "";
     position: absolute;
@@ -236,7 +272,7 @@ h2 {
     -moz-transform: skewY(-3deg);
     transform: skewY(-3deg);
     z-index: -1; }
-
+  /* line 270, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .dbskewY:before {
     content: "";
     position: absolute;
@@ -250,28 +286,36 @@ h2 {
     z-index: 100;
     transform: skewY(-3deg);
     z-index: -1; } }
+
+/* line 299, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
 .db-for-me-block {
   position: relative; }
+  /* line 301, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .db-for-me-block .db-one-p {
     font-size: 28px;
     line-height: 46px;
     color: white;
     padding-bottom: 23px; }
+    /* line 306, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
     .db-for-me-block .db-one-p .db-one-span {
       color: #043062;
       font-size: 40px;
       line-height: 56px; }
+    /* line 311, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
     .db-for-me-block .db-one-p .db-two-span {
       color: #043062;
       line-height: 50px; }
+  /* line 316, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .db-for-me-block .db-two-p {
     line-height: 46px;
     color: white;
     font-size: 20px; }
+    /* line 320, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
     .db-for-me-block .db-two-p span {
       color: #ffe271;
       font-size: 40px; }
 
+/* line 327, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
 .mask {
   position: fixed;
   top: 0;
@@ -284,29 +328,34 @@ h2 {
   cursor: pointer; }
 
 @media only screen and (min-width: 768px) {
+  /* line 347, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .db-form {
     width: 660px;
     margin: 0 auto;
     text-align: center;
     padding: 160px 0;
     position: relative; }
+    /* line 353, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
     .db-form .db-crest {
       position: absolute;
       right: 60px;
       top: 33px;
       cursor: pointer; }
+    /* line 359, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
     .db-form p {
       margin-top: -20px;
       color: white;
       font-size: 20px;
       font-family: "Rubik-Bold";
       padding-bottom: 27px; }
+    /* line 366, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
     .db-form input[type="submit"] {
       background: none;
       color: white;
       border: 3px solid white;
       font-size: 20px;
       margin-top: 15px; }
+    /* line 373, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
     .db-form input[type="text"] {
       border: 3px solid white;
       font-size: 20px;
@@ -314,11 +363,15 @@ h2 {
       padding: 6px 3px;
       text-align: center;
       margin-top: 1px; }
+    /* line 382, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
     .db-form input[type="text"]::-webkit-input-placeholder {
       color: #70d1ff; }
+    /* line 383, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
     .db-form input[type="text"]::-moz-placeholder {
       color: #70d1ff; } }
+
 @media only screen and (min-width: 992px) {
+  /* line 388, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .db-for-me-block:before {
     content: "";
     background: url("../img/db-woman.png") no-repeat top left;
@@ -327,13 +380,16 @@ h2 {
     left: -113px;
     width: 498px;
     height: 650px; }
-
+  /* line 398, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .db-for-me-block .db-one-p {
     font-size: 38px; }
+    /* line 400, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
     .db-for-me-block .db-one-p .db-one-span {
       font-size: 50px; }
+  /* line 404, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
   .db-for-me-block .db-two-p {
     font-size: 30px; }
+    /* line 406, C:/OpenServer/domains/vinny.loc/css/style-db.scss */
     .db-for-me-block .db-two-p span {
       font-size: 50px; } }
 
