@@ -202,10 +202,6 @@
   -moz-transition: 0.4s;
   transition: 0.4s; }
 
-.dfwanted:hover {
-  background-color: #ff740d;
-  color: #fff; }
-
 .df-left, .df-right {
   position: absolute;
   top: 37%;
