@@ -318,44 +318,51 @@
   margin: auto;
   margin-top: 50px; }
 
+/* line 294, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+.find-right {
+  height: 300px; }
+
 @media only screen and (min-width: 480px) {
-  /* line 298, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+  /* line 301, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
   .footer {
     background-image: url(/img/footer_bg.jpg);
     background-position: 50% 0; }
-  /* line 302, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+  /* line 305, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
   .footer-socials__left {
     float: left;
     margin-bottom: 0; }
-  /* line 306, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+  /* line 309, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
   .footer-socials__right {
     float: right;
     padding-top: 15px; } }
 
 @media only screen and (min-width: 768px) {
-  /* line 313, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+  /* line 316, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
   .footer-socials__left {
     text-align: left; } }
 
 @media only screen and (min-width: 992px) {
-  /* line 318, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+  /* line 321, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
   .footer-title {
     font-size: 42px; }
-  /* line 321, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+  /* line 324, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
   .footer-call-title {
     line-height: 45px; }
-  /* line 325, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+  /* line 328, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
   .find-left {
     margin-bottom: 0px;
     text-align: left; }
-  /* line 329, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+  /* line 332, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
   .find {
     margin-bottom: -60px; }
-  /* line 332, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+  /* line 335, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
   .footer-container {
     width: 960px !important; }
-  /* line 335, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+  /* line 338, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
   .about-item {
-    max-width: 264px; } }
+    max-width: 264px; }
+  /* line 341, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+  .find-right {
+    height: 700px; } }
 
 /*# sourceMappingURL=style-dg.css.map */

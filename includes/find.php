@@ -47,7 +47,7 @@
                 </div>
             </div>
             <div class="col-md-7 find-right">
-               <div id="YMapsID" style="width:100%;height:700px">
+               <div id="YMapsID" style="width:100%;height:100%">
                     <script type="text/javascript">
                         // Создает обработчик события window.onLoad
                         YMaps.jQuery(function () {
