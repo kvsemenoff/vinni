@@ -182,7 +182,7 @@
 
 /* line 190, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
 .dd-what-to-do_wrap_2 {
-  background: url(../img/green.png) no-repeat top center;
+  background: url(../img/green2.png) no-repeat top center;
   background-size: cover;
   margin-top: -28px;
   padding: 100px 0px; }
@@ -296,19 +296,56 @@
   padding-top: 120px; }
 
 /* line 308, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+.dfskewwhat {
+  background-size: cover !important;
+  margin-top: -30px;
+  padding-top: 90px;
+  z-index: 999;
+  position: relative;
+  background-color: white;
+  -o-transform: skewY(-3deg);
+  -webkit-transform: skewY(-3deg);
+  -moz-transform: skewY(-3deg);
+  -ms-transform: skewY(-3deg);
+  transform: skewY(-3deg);
+  margin-bottom: -65px;
+  padding-bottom: 20px;
+  margin-top: 10px; }
+
+/* line 325, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+.dfskewwhat:after {
+  content: "";
+  position: absolute;
+  top: -150px;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  transform: skewY(3deg);
+  background: url(../img/lbg.png) no-repeat top 112px center;
+  background-size: cover; }
+
+/* line 336, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+.dfskewwhat2 {
+  -o-transform: skewY(3.3deg);
+  -webkit-transform: skewY(3.3deg);
+  -moz-transform: skewY(3.3deg);
+  -ms-transform: skewY(3.3deg);
+  transform: skewY(3.3deg); }
+
+/* line 343, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
 .dd-content-new_wt {
   max-width: 622px;
   margin: 0 auto; }
-  /* line 312, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 347, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-content-new_wt ul li {
     margin-bottom: 6px; }
-  /* line 315, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 350, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-content-new_wt ul .li-new-last {
     background: url(../img/disk.png) no-repeat left top 7px; }
-  /* line 319, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 354, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-content-new_wt .dd-wsp3_wt2 {
     font-size: 20px; }
-  /* line 322, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 357, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-content-new_wt .dd-new-button {
     display: inline-block;
     width: 244px;
@@ -324,7 +361,7 @@
 
 /* Header
 ===================================*/
-/* line 339, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+/* line 374, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
 .dd-header {
   background: url(../img/hed.jpg) no-repeat top center;
   background-size: cover;
@@ -332,25 +369,25 @@
   padding-bottom: 50px;
   padding-top: 10px; }
 
-/* line 346, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+/* line 381, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
 .dd-header-container {
   max-width: 958px;
   margin: 0 auto;
   position: relative; }
 
-/* line 351, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+/* line 386, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
 .dd-top-box {
   text-align: center;
   margin-bottom: 15px; }
 
-/* line 356, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+/* line 391, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
 .dd-top-box_1 span {
   color: #fff;
   display: block;
   font-family: "Rubik-Bold";
   font-size: 24px; }
 
-/* line 364, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+/* line 399, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
 .dd-top-box_2 span {
   color: #fff !important;
   display: block;
@@ -358,45 +395,45 @@
   font-size: 24px;
   font-family: "roundsblack"; }
 
-/* line 372, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+/* line 407, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
 .dd-top-main {
   padding-top: 45px; }
-  /* line 374, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 409, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-top-main span {
     display: block;
     font-family: "roundsblack"; }
-  /* line 378, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 413, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-top-main span:nth-child(1) {
     color: #FF740D;
     font-size: 24px;
     text-transform: uppercase;
     margin-bottom: 40px; }
-  /* line 385, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 420, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-top-main span:nth-child(2) {
     color: #FFE271;
     font-size: 40px; }
-  /* line 390, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 425, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-top-main span:nth-child(3) {
     color: #FF740D;
     font-size: 24px; }
-  /* line 395, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 430, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-top-main span:nth-child(4) {
     color: #6EB400;
     font-size: 36px; }
 
-/* line 400, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+/* line 435, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
 .dd-top-bottom {
   width: 222px;
   margin: 0 auto;
   text-align: center;
   padding: 50px 0px; }
-  /* line 406, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 441, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-top-bottom span {
     font-family: "roundsblack";
     font-size: 28px;
     color: #FF740D; }
 
-/* line 412, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+/* line 447, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
 .item-play {
   text-align: center;
   border: 4px solid #FF740D;
@@ -407,165 +444,168 @@
   overflow: hidden;
   height: 352px; }
 
-/* line 423, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+/* line 458, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
 .dd-video-header {
   background: url(../img/fon.png) no-repeat top center;
   padding-top: 221px;
   margin-top: -195px; }
 
-/* line 430, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+/* line 465, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
 .dd-str {
   position: absolute;
   left: 25%;
   bottom: -93px; }
 
-/* line 435, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+/* line 470, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
 .dd-video-txt {
   text-align: center;
   max-width: 470px;
   margin: 0 auto;
   padding-top: 34px; }
-  /* line 440, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 475, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-video-txt span {
     display: inline-block; }
-  /* line 443, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 478, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-video-txt span:nth-child(1) {
     font-family: "Rubik-Bold";
     font-size: 28px;
     color: #FF740D;
     margin-bottom: 24px; }
-  /* line 449, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 484, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-video-txt .nsp1 {
     font-family: "roundsblack";
     font-size: 28px;
     color: #6EB400; }
-  /* line 454, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 489, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-video-txt .nsp2 {
     font-family: "roundsblack";
     font-size: 39px;
     color: #378100; }
 
 @media only screen and (min-width: 480px) {
-  /* line 472, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 507, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .section_how {
     margin-top: -370px; }
-  /* line 475, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 510, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-video-header {
     margin-top: -218px; }
-  /* line 478, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 513, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-top-bottom {
     margin-left: 0; } }
 
 @media only screen and (min-width: 768px) {
-  /* line 487, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 522, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-video-txt .nsp2 {
     font-size: 48px; }
-  /* line 491, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 526, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-video-header {
     margin-top: -230px; }
-  /* line 495, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 530, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-what-to-do_wrap_4 {
     margin-top: 2px; }
-  /* line 499, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 534, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-content_wt__pots .dd-wsp1_wt {
     font-size: 33px; }
-  /* line 504, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 539, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-slogan__h span {
     font-size: 39px; }
-  /* line 508, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 543, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-title {
     font-size: 66px; } }
 
 @media only screen and (min-width: 992px) {
-  /* line 514, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 549, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-str {
     position: absolute;
     left: 39%;
     bottom: 58px; }
-  /* line 519, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 554, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-video-header {
     margin-top: -306px;
     margin-bottom: -75px;
     background-size: cover; }
-  /* line 524, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 559, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-top-bottom {
     margin-left: 60px;
     padding-top: 218px;
     padding-bottom: 76px; }
-  /* line 529, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 564, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-header {
     background: url(../img/hed3.jpg) no-repeat top center;
     background-size: cover; }
-  /* line 535, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 570, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-top-main span:nth-child(1) {
     color: #fff; }
-  /* line 538, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 573, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-top-main span:nth-child(2) {
     font-size: 50px; }
-  /* line 541, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 576, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-top-main span:nth-child(3) {
     font-size: 69px; }
-  /* line 545, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 580, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-top-box {
     display: inline-block; }
-  /* line 548, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 583, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-top-box_1 {
     padding-left: 48px; }
-  /* line 551, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 586, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-top-box_2 {
     float: right;
     padding-top: 10px; }
-  /* line 555, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 590, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-what-to-do_wrap_5 {
-    background: url(../img/lbg.png) no-repeat top center; }
-  /* line 558, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+    background: url(../img/lbg.png) no-repeat bottom -35px center; }
+  /* line 593, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-content-new_wt {
     float: left; }
-  /* line 561, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 596, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-what-to-do_wrap_4 {
     margin-top: -28px;
     background: url(../img/cam2.png) no-repeat top center;
     padding-bottom: 90px;
     background-size: cover; }
-  /* line 567, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 602, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-content-cam_wt {
     float: right; }
-  /* line 570, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 605, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-what-to-do_wrap_3 {
     background: url(../img/pots.png) no-repeat top center;
     padding-bottom: 167px;
     background-size: cover; }
-  /* line 575, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 610, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-container__green {
     max-width: 1024px; }
-  /* line 578, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 613, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-what-to-do_wrap {
     background: url(../img/dev.jpg) no-repeat top center;
     padding-top: 95px;
     padding-bottom: 161px; }
-  /* line 584, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 619, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-bottom-wrap_h {
     margin-top: -337px; }
-  /* line 588, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 623, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-bottom-content_h span:nth-child(1) {
     font-size: 36px; }
-  /* line 591, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 626, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-bottom-content_h span:nth-child(2) {
     font-size: 51px; }
-  /* line 595, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 630, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .section_how {
     background: url(../img/g2.jpg) no-repeat top center;
-    background-size: cover; } }
+    background-size: cover; }
+  /* line 635, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  .dfskewwhat {
+    padding-bottom: 10px; } }
 
 @media only screen and (min-width: 1248px) {
-  /* line 605, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 643, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-what-to-do_wrap_2 {
     padding-top: 118px;
     padding-bottom: 15px; }
-  /* line 609, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 647, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-content_wt__green {
     float: right; }
-  /* line 612, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
+  /* line 650, C:/OpenServer/domains/vinny.loc/css/style-dd.scss */
   .dd-girl {
     float: left;
     margin-top: -155px;

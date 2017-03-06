@@ -188,7 +188,7 @@ $yellow:#ffe271;
 
 // 2
 .dd-what-to-do_wrap_2{
-	background:url(../img/green.png) no-repeat top center;
+	background:url(../img/green2.png) no-repeat top center;
 	background-size:cover;
 	margin-top: -28px;
 	padding: 100px 0px;
@@ -304,6 +304,41 @@ $yellow:#ffe271;
 	background-size:cover;
 	margin-top: -30px;
 	padding-top: 120px;
+}
+.dfskewwhat{
+	background-size: cover !important;
+	margin-top: -30px;
+	// padding-top: 120px;
+	padding-top: 90px;
+	z-index: 999;	
+	position: relative;
+	background-color: white;
+	-o-transform: skewY(-3deg);
+	-webkit-transform: skewY(-3deg);
+	-moz-transform: skewY(-3deg);
+	-ms-transform: skewY(-3deg);
+	transform: skewY(-3deg);	
+	margin-bottom: -65px;
+	padding-bottom: 20px;
+	margin-top: 10px;
+}
+.dfskewwhat:after{
+	content: "";
+    position: absolute;
+    top: -150px;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    transform: skewY(3deg);
+    background: url(../img/lbg.png) no-repeat top 112px center;	
+    background-size: cover;
+}
+.dfskewwhat2{
+	-o-transform: skewY(3.3deg);
+	-webkit-transform: skewY(3.3deg);
+	-moz-transform: skewY(3.3deg);
+	-ms-transform: skewY(3.3deg);
+	transform: skewY(3.3deg);
 }
 .dd-content-new_wt{
 	max-width: 622px;
@@ -553,7 +588,7 @@ $yellow:#ffe271;
 		padding-top: 10px;
 	}
 	.dd-what-to-do_wrap_5{
-		background:url(../img/lbg.png) no-repeat top center;
+		background:url(../img/lbg.png) no-repeat bottom -35px center;
 	}
 	.dd-content-new_wt{
 		float: left;
@@ -596,6 +631,9 @@ $yellow:#ffe271;
 		// background:url(../img/sg.jpg) no-repeat top center;
 		background:url(../img/g2.jpg) no-repeat top center;
 		background-size:cover;
+	}
+	.dfskewwhat{
+		padding-bottom: 10px;
 	}
 }
 

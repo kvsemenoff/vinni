@@ -1,7 +1,7 @@
-	<div class="ddall">
+	
 	<section class="section section_padding section_for_me-view">
-		<div class="dftreyg"></div>
-		<div class="dftreyg2"></div>
+		<!-- <div class="dftreyg"></div> -->
+		<!-- <div class="dftreyg2"></div> -->
 		<div class="dbskewY">
 			<div class=" container dbskew2">
 				<div class="row">
@@ -23,4 +23,4 @@
 		</div>
 
 	</section>
-</div>
+
