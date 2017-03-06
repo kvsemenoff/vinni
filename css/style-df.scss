@@ -273,16 +273,16 @@ $yellow:#ffe271;
 	margin-bottom: 15px;
 	border-radius: 50px;
 	overflow: hidden;
-	// position: relative;
+	position: relative;
 	img{
 		border-radius: 50px;
 		display: inline-block;
-		width: 100%;
-		height: auto;
-		// position: absolute;
-		// top:50%;
-		// left: 50%;
-		// transform:translate(-50%, -50%);
+		// width: 100%;
+		// height: auto;
+		position: absolute;
+		top:0;
+		left: 50%;
+		transform:translate(-50%, 0);
 
 	}
 }
