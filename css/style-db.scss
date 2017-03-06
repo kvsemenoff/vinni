@@ -222,12 +222,12 @@ body{
 		padding-bottom: 23px;
 		.db-one-span{
 			color: #043062;
-			font-size: 40px;
+			font-size: 25px;
 			line-height: 56px;
 		}
 		.db-two-span{
 			color: #043062;
-			line-height: 50px;
+			line-height: 30px;
 		}
 	}
 	.db-two-p{
@@ -236,7 +236,7 @@ body{
 		font-size: 20px;
 		span{
 			color: #ffe271;
-			font-size: 40px;
+			font-size: 30px;
 		}
 	}
 }
@@ -260,7 +260,7 @@ body{
 }
 
 @media only screen and (min-width : 768px) {
-
+	
 	.db-form{
 		width: 660px;
 		margin: 0 auto;
@@ -298,6 +298,22 @@ body{
 		}
 		input[type="text"]::-webkit-input-placeholder { color: #70d1ff;}    
 		input[type="text"]::-moz-placeholder { color: #70d1ff;}
+	}
+
+
+	.db-for-me-block{		
+		.db-one-p{
+			font-size: 28px;		
+			.db-one-span{			
+				font-size: 40px;
+				
+			}		
+		}
+		.db-two-p{		
+			span{			
+				font-size: 40px;
+			}
+		}
 	}
 }
 

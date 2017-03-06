@@ -338,13 +338,13 @@ $yellow:#ffe271;
 }
 .dfcapselect{
 	font-family: "roundsblack";
-	font-size: 34px;
+	font-size: 18px;
 	color: #fff;
 	line-height: 45px;
 	text-align: center;
 	margin-bottom: 47px;
 	span{	
-		font-size: 40px;
+		font-size: 30px;
 	}
 }
 .dfkidblock{
@@ -497,6 +497,12 @@ $yellow:#ffe271;
 @media only screen and (min-width : 768px) {
 	.dfpersonalchar{		
 		padding-left: 0px;
+	}
+	.dfcapselect{		
+		font-size: 34px;		
+		span{	
+			font-size: 40px;
+		}
 	}
 }
 
