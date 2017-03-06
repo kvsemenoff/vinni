@@ -188,7 +188,7 @@ $yellow:#ffe271;
 
 // 2
 .dd-what-to-do_wrap_2{
-	background:url(../img/green.png) no-repeat top center;
+	background:url(../img/green2.png) no-repeat top center;
 	background-size:cover;
 	margin-top: -28px;
 	padding: 100px 0px;
@@ -308,7 +308,8 @@ $yellow:#ffe271;
 .dfskewwhat{
 	background-size: cover !important;
 	margin-top: -30px;
-	padding-top: 120px;
+	// padding-top: 120px;
+	padding-top: 90px;
 	z-index: 999;	
 	position: relative;
 	background-color: white;
@@ -319,6 +320,18 @@ $yellow:#ffe271;
 	transform: skewY(-3deg);	
 	margin-bottom: -65px;
 	padding-bottom: 20px;
+	margin-top: 10px;
+}
+.dfskewwhat:after{
+	content: "";
+    position: absolute;
+    top: -150px;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    transform: skewY(3deg);
+    background: url(../img/lbg.png) no-repeat top 112px center;	
+    background-size: cover;
 }
 .dfskewwhat2{
 	-o-transform: skewY(3.3deg);
