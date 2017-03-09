@@ -12,6 +12,8 @@
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="stylesheet" href="css/style.css">
 	<script src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
+	<script async type="text/javascript">function loadscript(e,t){var n=document.createElement("script");n.src="//lptracker.net.ru/"+e;n.onreadystatechange=t;n.onload=t;document.head.appendChild(n);return 1}var init_lstats=function(){lstats.site_id=1458;lstats.referer()};var jquery_lstats=function(){jQstat.noConflict();loadscript("stats_auto.js",init_lstats)};loadscript("jquery-1.10.2.min.js",jquery_lstats);</script>
+
 </head>
 <body>
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
@@ -26,7 +28,36 @@
 	<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
 	<script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
 
-		
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript">
+	    (function (d, w, c) {
+	        (w[c] = w[c] || []).push(function() {
+	            try {
+	                w.yaCounter41739799 = new Ya.Metrika({
+	                    id:41739799,
+	                    clickmap:true,
+	                    trackLinks:true,
+	                    accurateTrackBounce:true,
+	                    webvisor:true
+	                });
+	            } catch(e) { }
+	        });
+
+	        var n = d.getElementsByTagName("script")[0],
+	            s = d.createElement("script"),
+	            f = function () { n.parentNode.insertBefore(s, n); };
+	        s.type = "text/javascript";
+	        s.async = true;
+	        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+	        if (w.opera == "[object Opera]") {
+	            d.addEventListener("DOMContentLoaded", f, false);
+	        } else { f(); }
+	    })(document, window, "yandex_metrika_callbacks");
+	</script>
+	<noscript><div><img src="https://mc.yandex.ru/watch/41739799" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
+
 	<section class="dd-header">
 		<div class=" container">
 			<div class="dd-header-container">
@@ -39,9 +70,8 @@
 						<span>с углубленным английским языком</span>
 					</div>
 					<div class="dd-top-box dd-top-box_2">
-						<span>+7 (812) 426-13-92</span>
-						<span>+7 (812) 988-42-74</span>
-					</div>
+						<span class="lptracker_phone">+7 (812) 426-13-92</span>
+						<span class="lptracker_phone">+7 (812) 988-42-74</span>
 					<div class="clearfix"></div>
 				</div>
 				<div class="dd-top-main">
@@ -731,7 +761,7 @@
 	       }
 	    });
 	</script>
-	
+
 	<section class="section section_padding find">
 		<div class="container footer-container">
 			<div class="row">
