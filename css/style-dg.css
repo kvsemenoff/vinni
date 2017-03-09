@@ -363,6 +363,14 @@
     max-width: 264px; }
   /* line 341, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
   .find-right {
-    height: 700px; } }
+    height: 700px; }
+  /* line 344, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+  .about-concurents {
+    padding-left: 165px;
+    padding-right: 165px; }
+  /* line 348, C:/OpenServer/domains/vinny.loc/css/style-dg.scss */
+  .about-truth {
+    padding-left: 155px;
+    padding-right: 155px; } }
 
 /*# sourceMappingURL=style-dg.css.map */
